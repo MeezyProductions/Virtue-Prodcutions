@@ -58,8 +58,8 @@ final class Class476 implements Interface8
     }
     
     public static void method5837(int i) {
-	int i_2_ = client.aClass495_10935.method6029((short) 25064);
-	int i_3_ = client.aClass495_10935.method5967(454220533);
+	int i_2_ = client.gameScene.method6029((short) 25064);
+	int i_3_ = client.gameScene.method5967(454220533);
 	Class148_Sub1.aBoolArrayArray8790 = new boolean[i_2_ >> 3][i_3_ >> 3];
     }
     

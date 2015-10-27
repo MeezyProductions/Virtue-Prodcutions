@@ -73,7 +73,7 @@ public class Class662
 	    == 0)
 	    i_3_ |= 0x40;
 	Class141_Sub1.method8287(i_3_, (byte) -61);
-	client.aClass495_10935.method5976((short) 5396)
+	client.gameScene.method5976((short) 5396)
 	    .method10180(i_3_, -979551176);
 	Class590.aClass488_7736.method5897(1950226709).method5976
 	    ((short) 27366).method10180(i_3_, -860120601);
@@ -85,7 +85,7 @@ public class Class662
 	Class57.method993(i_3_, -1450480934);
 	Class63.method1042(i_3_, (byte) 8);
 	Class541.method6621(i_3_, -1778371568);
-	client.aClass495_10935.method5989(2016078152);
+	client.gameScene.method5989(2016078152);
     }
     
     static final void method7879(byte i) {

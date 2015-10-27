@@ -47,8 +47,8 @@ public class Class656
     static void method7846(Class418 class418, boolean bool, float f,
 			   float f_0_, float f_1_, float f_2_, int i, int i_3_,
 			   byte i_4_) {
-	int i_5_ = client.aClass495_10935.method5972(1750031412);
-	int i_6_ = client.aClass495_10935.method6020(1012377122);
+	int i_5_ = client.gameScene.method5972(1750031412);
+	int i_6_ = client.gameScene.method6020(1012377122);
 	class418.method4984(f, f_0_, f_1_, f_2_, (float) i_6_, (float) i_5_,
 			    (float) i, (float) i_3_);
     }

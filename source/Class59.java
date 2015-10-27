@@ -65,7 +65,7 @@ final class Class59 implements Interface62
 		      * 1856775008213551683L);
 	    if (i_5_ >= 2000)
 		i_5_ -= 2000;
-	    Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	    Class578 class578 = client.gameScene.method5966(1273279609);
 	    if (i_5_ == 30 && client.aClass229_11059 == null) {
 		Class641.method7603(i_4_, i_3_, (byte) 33);
 		client.aClass229_11059

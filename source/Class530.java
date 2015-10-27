@@ -196,7 +196,7 @@ public class Class530 implements Interface17
     
     static final void method6463(int i, int i_2_, int i_3_, int i_4_,
 				 boolean bool, int i_5_) {
-	if (client.aClass495_10935.method5973((byte) 101) == null)
+	if (client.gameScene.method5973((byte) 101) == null)
 	    Class587.aClass173_7714.method2210(i, i_2_, i_3_, i_4_, -16777216,
 					       -1688352718);
 	else {
@@ -210,11 +210,11 @@ public class Class530 implements Interface17
 	    } else {
 		if ((int) class422.aFloat4780 < 0
 		    || ((int) class422.aFloat4780
-			>= (client.aClass495_10935.method6029((short) 28889)
+			>= (client.gameScene.method6029((short) 28889)
 			    * 512))
 		    || (int) class422.aFloat4777 < 0
 		    || ((int) class422.aFloat4777
-			>= client.aClass495_10935.method5967(28491173) * 512))
+			>= client.gameScene.method5967(28491173) * 512))
 		    bool_6_ = true;
 		if (-1860881523 * Class390.anInt4111 == 6
 		    && !Class495.aClass283_Sub1_5578.method3782((short) 255))
@@ -251,7 +251,7 @@ public class Class530 implements Interface17
 			&& client.aClass527Array11010[i_7_]
 			       .method6425(Class587.aClass173_7714, 63945101))
 			client.aClass527Array11010[i_7_].method6419
-			    (client.aClass495_10935.method5973((byte) 63),
+			    (client.gameScene.method5973((byte) 63),
 			     (byte) 51);
 		}
 		Class210.method2954(i, i_2_, i_3_, i_4_, true, (byte) 0);
@@ -347,21 +347,21 @@ public class Class530 implements Interface17
 		if (Class626.anInt8136 * -639218145 < 0)
 		    Class626.anInt8136 = 0;
 		if (Class626.anInt8136 * -639218145
-		    > ((client.aClass495_10935.method5973((byte) 70).anInt7158
+		    > ((client.gameScene.method5973((byte) 70).anInt7158
 			* -1102718643)
 		       << 9) - 1)
 		    Class626.anInt8136
-			= (((client.aClass495_10935.method5973((byte) 20)
+			= (((client.gameScene.method5973((byte) 20)
 			     .anInt7158) * -1102718643
 			    << 9)
 			   - 1) * 1636412895;
 		if (-1246131271 * Class227.anInt2347 < 0)
 		    Class227.anInt2347 = 0;
 		if (Class227.anInt2347 * -1246131271
-		    > ((client.aClass495_10935.method5973((byte) 67).anInt7159
+		    > ((client.gameScene.method5973((byte) 67).anInt7159
 			* -532233529)
 		       << 9) - 1)
-		    Class227.anInt2347 = (((client.aClass495_10935.method5973
+		    Class227.anInt2347 = (((client.gameScene.method5973
 					    ((byte) 48).anInt7159) * -532233529
 					   << 9)
 					  - 1) * 397871753;
@@ -377,12 +377,12 @@ public class Class530 implements Interface17
 		Class587.aClass173_7714.method2350(true);
 		Class587.aClass173_7714.method2204(i, i_2_, i + i_3_,
 						   i_2_ + i_4_);
-		Class607 class607 = client.aClass495_10935.method5975
+		Class607 class607 = client.gameScene.method5975
 					(-1156915558).method7487(1499737500);
 		int i_19_ = class607.method7222(2140187911);
 		Class284 class284 = new Class284();
 		Class578 class578
-		    = client.aClass495_10935.method5966(1273279609);
+		    = client.gameScene.method5966(1273279609);
 		if (Class677.method7955(-225278296))
 		    Class71.aClass283_Sub1_774.method3807
 			(class284, client.aClass433_11080,
@@ -455,8 +455,8 @@ public class Class530 implements Interface17
 		Class315.method4162(client.aClass433_11080,
 				    client.aClass418_10877, i_3_, i_4_,
 				    -1884351949);
-		client.aClass495_10935.method5975(-1502672091)
-		    .method7463(client.aClass495_10935, 1616874717);
+		client.gameScene.method5975(-1502672091)
+		    .method7463(client.gameScene, 1616874717);
 		int i_22_ = Class514.aClass528_Sub38_6967
 				.aClass691_Sub17_10586.method9955(-632510649);
 		byte i_23_;
@@ -468,11 +468,11 @@ public class Class530 implements Interface17
 		    i_23_ = (byte) 1;
 		if (Class677.method7955(-225278296)
 		    || 6 == Class390.anInt4111 * -1860881523)
-		    client.aClass495_10935.method5973((byte) 74).method6561
+		    client.gameScene.method5973((byte) 74).method6561
 			(client.anInt11127, 1992071425 * class284.anInt3118,
 			 class284.anInt3116 * -1338437335,
 			 944493519 * class284.anInt3117,
-			 client.aClass495_10935.method5978((byte) -63),
+			 client.gameScene.method5978((byte) -63),
 			 client.anIntArray10880, client.anIntArray11013,
 			 client.anIntArray11014, client.anIntArray10967,
 			 client.anIntArray11012,
@@ -485,11 +485,11 @@ public class Class530 implements Interface17
 			     .method9909(1664729027) == 0,
 			 true, 0, true);
 		else
-		    client.aClass495_10935.method5973((byte) 74).method6561
+		    client.gameScene.method5973((byte) 74).method6561
 			(client.anInt11127, -639218145 * Class626.anInt8136,
 			 950408709 * Class137.anInt1630,
 			 Class227.anInt2347 * -1246131271,
-			 client.aClass495_10935.method5978((byte) -115),
+			 client.gameScene.method5978((byte) -115),
 			 client.anIntArray10880, client.anIntArray11013,
 			 client.anIntArray11014, client.anIntArray10967,
 			 client.anIntArray11012,
@@ -505,7 +505,7 @@ public class Class530 implements Interface17
 		if (!Class587.aClass173_7714.method2264()
 		    && 9 == client.anInt10876 * 175711435)
 		    Class181_Sub4.method8913(i, i_2_, i_3_, i_4_, -916349451);
-		client.aClass495_10935.method5973((byte) 9)
+		client.gameScene.method5973((byte) 9)
 		    .method6547((byte) 104);
 		Class626.anInt8136 = 1636412895 * i_12_;
 		Class137.anInt1630 = i_13_ * 1124026061;
@@ -551,12 +551,12 @@ public class Class530 implements Interface17
     
     static void method6465(byte i) {
 	if (null != Class587.aClass173_7714) {
-	    client.aClass495_10935.method5983(-1202066604);
+	    client.gameScene.method5983(-1202066604);
 	    Class494.method5961(-1927735749);
 	    Class170.method2110((byte) -21);
 	    Class242.method3380(327588427);
 	    Class46.method865((byte) 9);
-	    client.aClass495_10935.method5985(true, 1828313765);
+	    client.gameScene.method5985(true, 1828313765);
 	    Class387.method4749(-1468120608);
 	    Class476.method5837(1066264988);
 	    Class666.method7908(false, 1118031666);

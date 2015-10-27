@@ -159,7 +159,7 @@ public class Class303 implements Runnable
     }
     
     static final void method4041(int i) {
-	Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	Class578 class578 = client.gameScene.method5966(1273279609);
 	Class422 class422
 	    = Class495.aClass283_Sub1_5578.method3788((short) -21505);
 	Class626.anInt8136

@@ -162,7 +162,7 @@ public class Class61 implements Runnable {
 			if (client.localPlayers[i] != null)
 				throw new RuntimeException();
 			Class48 class48 = GPI.aClass48Array1204[i];
-			Player player = (client.localPlayers[i] = (new Player(client.aClass495_10935.method5973((byte) 110))));
+			Player player = (client.localPlayers[i] = (new Player(client.gameScene.method5973((byte) 110))));
 			player.anInt11783 = 1791366607 * i;
 			if (null != GPI.cachedAppearances[i])
 				player.decodeCharacterData(GPI.cachedAppearances[i], -193937637);
@@ -174,14 +174,14 @@ public class Class61 implements Runnable {
 			int i_5_ = i_4_ >> 28;
 			int i_6_ = i_4_ >> 14 & 0xff;
 			int i_7_ = i_4_ & 0xff;
-			Class578 class578 = client.aClass495_10935.method5966(1273279609);
+			Class578 class578 = client.gameScene.method5966(1273279609);
 			int i_8_ = (i_6_ << 6) + i_2_ - 961465569 * class578.anInt7607;
 			int i_9_ = (i_7_ << 6) + i_3_ - class578.anInt7608 * -173815201;
 			player.aClass213_12066 = class48.aClass213_543;
 			player.inClan = class48.aBool546;
 			player.moveTypeQueue[0] = GPI.aByteArray1194[i];
 			player.aByte10675 = player.aByte10674 = (byte) i_5_;
-			if (client.aClass495_10935.method6006((byte) 0).method5633(i_8_, i_9_, (short) -14927))
+			if (client.gameScene.method6006((byte) 0).method5633(i_8_, i_9_, (short) -14927))
 				player.aByte10674++;
 			player.setPosition(i_8_, i_9_, 1684540037);
 			GPI.aClass48Array1204[i] = null;

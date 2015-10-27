@@ -51,7 +51,7 @@ public class Class5_Sub20 extends Class5
 	long l_4_ = -9223372036854775808L;
 	Class596 class596
 	    = ((Class596)
-	       client.aClass495_10935.method5976((short) 17820)
+	       client.gameScene.method5976((short) 17820)
 		   .method63(interface60.method397((short) -6177), 153614402));
 	long l_5_
 	    = (long) (i | i_2_ << 7 | interface60.method168(-493759960) << 14

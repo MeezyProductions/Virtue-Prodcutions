@@ -76,7 +76,7 @@ public class Class181_Sub6 extends Class181
 	int i_4_ = ((Class181_Sub6) this).anInt9793 * -1621452959 << 2;
 	Class645_Sub1_Sub5_Sub6 class645_sub1_sub5_sub6
 	    = (new Class645_Sub1_Sub5_Sub6
-	       (client.aClass495_10935.method5973((byte) 121),
+	       (client.gameScene.method5973((byte) 121),
 		((Class181_Sub6) this).anInt9790 * -1016506561, i_1_, i_1_, i,
 		i_0_, ((Class181_Sub6) this).anInt9788 * 1971894107 << 2,
 		client.anInt11127,
@@ -149,7 +149,7 @@ public class Class181_Sub6 extends Class181
 	int i_9_ = ((Class181_Sub6) this).anInt9793 * -1621452959 << 2;
 	Class645_Sub1_Sub5_Sub6 class645_sub1_sub5_sub6
 	    = (new Class645_Sub1_Sub5_Sub6
-	       (client.aClass495_10935.method5973((byte) 126),
+	       (client.gameScene.method5973((byte) 126),
 		((Class181_Sub6) this).anInt9790 * -1016506561, i_6_, i_6_, i,
 		i_5_, ((Class181_Sub6) this).anInt9788 * 1971894107 << 2,
 		client.anInt11127,
@@ -250,7 +250,7 @@ public class Class181_Sub6 extends Class181
 	int i_18_ = ((Class181_Sub6) this).anInt9793 * -1621452959 << 2;
 	Class645_Sub1_Sub5_Sub6 class645_sub1_sub5_sub6
 	    = (new Class645_Sub1_Sub5_Sub6
-	       (client.aClass495_10935.method5973((byte) 113),
+	       (client.gameScene.method5973((byte) 113),
 		((Class181_Sub6) this).anInt9790 * -1016506561, i_15_, i_15_,
 		i_13_, i_14_,
 		((Class181_Sub6) this).anInt9788 * 1971894107 << 2,

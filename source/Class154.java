@@ -60,7 +60,7 @@ class Class154 implements Comparator
 	if (((Class528_Sub9) class528_sub9).aBool10277) {
 	    if (((Class528_Sub9) class528_sub9).anInt10278 * 725877475 < 0
 		|| (Class198.method2839
-		    (client.aClass495_10935.method5976((short) 2809),
+		    (client.gameScene.method5976((short) 2809),
 		     ((Class528_Sub9) class528_sub9).anInt10278 * 725877475,
 		     1656789049 * ((Class528_Sub9) class528_sub9).anInt10280,
 		     1373309736))) {
@@ -93,11 +93,11 @@ class Class154 implements Comparator
 		   && class528_sub9.anInt10276 * -419484275 >= 1
 		   && 1250348405 * class528_sub9.anInt10288 >= 1
 		   && (-419484275 * class528_sub9.anInt10276
-		       <= client.aClass495_10935.method6029((short) 24224) - 2)
+		       <= client.gameScene.method6029((short) 24224) - 2)
 		   && (1250348405 * class528_sub9.anInt10288
-		       <= client.aClass495_10935.method5967(646721148) - 2)
+		       <= client.gameScene.method5967(646721148) - 2)
 		   && (class528_sub9.anInt10281 * -1941366643 < 0
-		       || Class198.method2839(client.aClass495_10935
+		       || Class198.method2839(client.gameScene
 						  .method5976((short) 16090),
 					      (-1941366643
 					       * class528_sub9.anInt10281),

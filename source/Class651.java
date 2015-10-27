@@ -24,34 +24,34 @@ public class Class651
     
     Interface60 method7744(int i) {
 	int i_0_ = -2013577247 * ((Class651) this).aClass578_8423.anInt7606;
-	Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	Class578 class578 = client.gameScene.method5966(1273279609);
 	int i_1_ = (961465569 * ((Class651) this).aClass578_8423.anInt7607
 		    - 961465569 * class578.anInt7607);
 	int i_2_ = (-173815201 * ((Class651) this).aClass578_8423.anInt7608
 		    - class578.anInt7608 * -173815201);
 	if (i_1_ < 0 || i_2_ < 0
-	    || i_1_ >= client.aClass495_10935.method6029((short) 28672)
-	    || i_2_ >= client.aClass495_10935.method5967(-702963548)
-	    || client.aClass495_10935.method5973((byte) 4) == null)
+	    || i_1_ >= client.gameScene.method6029((short) 28672)
+	    || i_2_ >= client.gameScene.method5967(-702963548)
+	    || client.gameScene.method5973((byte) 4) == null)
 	    return null;
 	switch (method7742((byte) 8)) {
 	case 3:
 	    return ((Interface60)
-		    client.aClass495_10935.method5973((byte) 85)
+		    client.gameScene.method5973((byte) 85)
 			.method6591(i_0_, i_1_, i_2_, -1159329523));
 	default:
 	    return null;
 	case 1:
-	    return (Interface60) client.aClass495_10935.method5973
+	    return (Interface60) client.gameScene.method5973
 				     ((byte) 33)
 				     .method6555(i_0_, i_1_, i_2_, -881923819);
 	case 0:
-	    return (Interface60) client.aClass495_10935.method5973
+	    return (Interface60) client.gameScene.method5973
 				     ((byte) 69)
 				     .method6600(i_0_, i_1_, i_2_, (byte) -61);
 	case 2:
 	    return ((Interface60)
-		    (client.aClass495_10935.method5973((byte) 117).method6583
+		    (client.gameScene.method5973((byte) 117).method6583
 		     (i_0_, i_1_, i_2_, client.anInterface62_11170,
 		      1965603660)));
 	}

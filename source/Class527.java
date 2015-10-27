@@ -60,8 +60,8 @@ public class Class527
     
     void method6420(Class538 class538, byte i) {
 	this.aLinkedList7100 = new LinkedList();
-	Class466 class466 = client.aClass495_10935.method6006((byte) 0);
-	Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	Class466 class466 = client.gameScene.method6006((byte) 0);
+	Class578 class578 = client.gameScene.method5966(1273279609);
 	Class578 class578_0_
 	    = new Class578(Class181_Sub5.anInt9778 * 1926870089,
 			   this.anIntArray7099[0],

@@ -145,15 +145,15 @@ public class Class383 implements Interface71
 	    = new Player(null);
 	client.aMap11026.clear();
 	Class108.myPlayer.method7682
-	    ((float) (client.aClass495_10935.method6029((short) 1168) * 512
+	    ((float) (client.gameScene.method6029((short) 1168) * 512
 		      / 2),
 	     0.0F,
-	     (float) (client.aClass495_10935.method5967(-683926516) * 512
+	     (float) (client.gameScene.method5967(-683926516) * 512
 		      / 2));
 	Class108.myPlayer.sceneXQueue[0]
-	    = client.aClass495_10935.method6029((short) 20239) / 2;
+	    = client.gameScene.method6029((short) 20239) / 2;
 	Class108.myPlayer.sceneYQueue[0]
-	    = client.aClass495_10935.method5967(1060001881) / 2;
+	    = client.gameScene.method5967(1060001881) / 2;
 	Class227.anInt2347 = 0;
 	Class626.anInt8136 = 0;
 	if (3 == -1860881523 * Class390.anInt4111) {
@@ -163,7 +163,7 @@ public class Class383 implements Interface71
 		= (Class72.anInt778 * -1695915927 << 9) * 397871753;
 	} else
 	    Class213.method2968(1881122761);
-	client.aClass495_10935.method5975(-1831330607).method7492(1491229973);
+	client.gameScene.method5975(-1831330607).method7492(1491229973);
     }
     
     static final void method4731(Class648 class648, int i) {

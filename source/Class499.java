@@ -32,15 +32,15 @@ public class Class499
 	Class480.anInt5455 = 0;
 	Class390.anInt4111 = 2086833802;
 	if (Class372.method4679(-1595827516) == 6) {
-	    Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	    Class578 class578 = client.gameScene.method5966(1273279609);
 	    int i_1_ = class578.anInt7607 * 961465569 << 9;
 	    int i_2_ = -173815201 * class578.anInt7608 << 9;
 	    int i_3_ = 1000 / Class262.method3646(-1701654150);
 	    Class495.aClass283_Sub1_5578.method3760
 		((float) i_3_ / 1000.0F,
-		 (client.aClass495_10935.method6024(-765386834)
+		 (client.gameScene.method6024(-765386834)
 		  .anIntArrayArrayArray5087),
-		 client.aClass495_10935.method6006((byte) 0), i_1_, i_2_,
+		 client.gameScene.method6006((byte) 0), i_1_, i_2_,
 		 -2137352661);
 	}
 	Class386.anInt4069 = 1476949137;

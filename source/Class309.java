@@ -235,7 +235,7 @@ public class Class309 implements Interface31
 	    for (int i_10_ = 0; i_10_ < 8; i_10_++)
 		client.aClass487ArrayArray11004[i_9_][i_10_] = new Class487();
 	}
-	client.aClass495_10935.method5975(-398382551).method7492(1917676258);
+	client.gameScene.method5975(-398382551).method7492(1917676258);
 	client.aBool10982 = true;
 	Class596.aShortArray7842 = Class299.aShortArray3324
 	    = ItemType.aShortArray30 = new short[256];

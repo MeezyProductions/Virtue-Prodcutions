@@ -21,15 +21,15 @@ public class Class671
 			    * ((Class671) this).aClass578_8526.anInt7607)))));
 	if (null == class528_sub2)
 	    return null;
-	Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	Class578 class578 = client.gameScene.method5966(1273279609);
 	int i_0_ = (961465569 * ((Class671) this).aClass578_8526.anInt7607
 		    - 961465569 * class578.anInt7607);
 	int i_1_ = (((Class671) this).aClass578_8526.anInt7608 * -173815201
 		    - -173815201 * class578.anInt7608);
 	if (i_0_ >= 0 && i_1_ >= 0
-	    && i_0_ < client.aClass495_10935.method6029((short) 7411)
-	    && i_1_ < client.aClass495_10935.method5967(1462233146)
-	    && client.aClass495_10935.method5973((byte) 56) != null) {
+	    && i_0_ < client.gameScene.method6029((short) 7411)
+	    && i_1_ < client.gameScene.method5967(1462233146)
+	    && client.gameScene.method5973((byte) 56) != null) {
 	    for (Class528_Sub1 class528_sub1
 		     = ((Class528_Sub1)
 			class528_sub2.aClass688_10201.method8034(895606552));
@@ -40,7 +40,7 @@ public class Class671
 		if (class528_sub1.anInt10200 * -48406585
 		    == ((Class671) this).anInt8525 * -1952699819)
 		    return ((Class645_Sub1_Sub2_Sub1)
-			    (client.aClass495_10935.method5973((byte) 100)
+			    (client.gameScene.method5973((byte) 100)
 				 .method6597
 			     ((((Class671) this).aClass578_8526.anInt7606
 			       * -2013577247),

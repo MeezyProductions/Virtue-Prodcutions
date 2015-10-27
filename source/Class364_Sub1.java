@@ -601,11 +601,11 @@ public class Class364_Sub1 extends Class364
 				   .aClass422_4868);
 			    if ((int) class422.aFloat4780 >= 0
 				&& ((int) class422.aFloat4780
-				    < client.aClass495_10935
+				    < client.gameScene
 					  .method6029((short) 8618) * 512)
 				&& (int) class422.aFloat4777 >= 0
 				&& ((int) class422.aFloat4777
-				    < client.aClass495_10935
+				    < client.gameScene
 					  .method5967(88367576) * 512))
 				class645_sub1_sub5_sub6.method10883
 				    ((int) class422.aFloat4780,
@@ -635,11 +635,11 @@ public class Class364_Sub1 extends Class364
 				   .aClass422_4868);
 			    if ((int) class422.aFloat4780 >= 0
 				&& ((int) class422.aFloat4780
-				    < client.aClass495_10935
+				    < client.gameScene
 					  .method6029((short) 16954) * 512)
 				&& (int) class422.aFloat4777 >= 0
 				&& ((int) class422.aFloat4777
-				    < client.aClass495_10935
+				    < client.gameScene
 					  .method5967(1645022406) * 512))
 				class645_sub1_sub5_sub6.method10883
 				    ((int) class422.aFloat4780,
@@ -673,11 +673,11 @@ public class Class364_Sub1 extends Class364
 			       .aClass422_4868);
 			if ((int) class422.aFloat4780 >= 0
 			    && ((int) class422.aFloat4780
-				< client.aClass495_10935
+				< client.gameScene
 				      .method6029((short) 28345) * 512)
 			    && (int) class422.aFloat4777 >= 0
 			    && ((int) class422.aFloat4777
-				< client.aClass495_10935
+				< client.gameScene
 				      .method5967(2030033831) * 512))
 			    class645_sub1_sub5_sub6.method10883
 				((int) class422.aFloat4780,
@@ -694,7 +694,7 @@ public class Class364_Sub1 extends Class364
 		}
 		class645_sub1_sub5_sub6
 		    .method10881(-178309515 * client.anInt10971, -1451336175);
-		client.aClass495_10935.method5973((byte) 57)
+		client.gameScene.method5973((byte) 57)
 		    .method6545(class645_sub1_sub5_sub6, true, 1567478138);
 	    }
 	}

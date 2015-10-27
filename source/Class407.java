@@ -223,7 +223,7 @@ public class Class407
     static final void method4886(Class648 class648, int i) {
 	Class194.method2813(1050530982);
 	Class287.method3864((byte) 1);
-	client.aClass495_10935.method5989(2016078152);
+	client.gameScene.method5989(2016078152);
 	Class243.method3387(2144736072);
 	client.aBool11161 = false;
     }

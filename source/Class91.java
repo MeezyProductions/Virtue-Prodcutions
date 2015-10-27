@@ -656,8 +656,8 @@ public class Class91
 	for (/**/; client.aFloat11088 < 0.0F; client.aFloat11088 += 16384.0F) {
 	    /* empty */
 	}
-	Class466 class466 = client.aClass495_10935.method6006((byte) 0);
-	Class538 class538 = client.aClass495_10935.method5973((byte) 70);
+	Class466 class466 = client.gameScene.method6006((byte) 0);
+	Class538 class538 = client.gameScene.method5973((byte) 70);
 	int i_1_ = Class494.anInt5533 * -858645029 >> 9;
 	int i_2_ = 593060725 * Class622.anInt8116 >> 9;
 	int i_3_
@@ -668,8 +668,8 @@ public class Class91
 					     -759833206);
 	int i_4_ = 0;
 	if (i_1_ > 3 && i_2_ > 3
-	    && i_1_ < client.aClass495_10935.method6029((short) 874) - 4
-	    && i_2_ < client.aClass495_10935.method5967(-259734664) - 4) {
+	    && i_1_ < client.gameScene.method6029((short) 874) - 4
+	    && i_2_ < client.gameScene.method5967(-259734664) - 4) {
 	    for (int i_5_ = i_1_ - 4; i_5_ <= 4 + i_1_; i_5_++) {
 		for (int i_6_ = i_2_ - 4; i_6_ <= 4 + i_2_; i_6_++) {
 		    int i_7_ = 1926870089 * Class181_Sub5.anInt9778;
@@ -678,7 +678,7 @@ public class Class91
 			i_7_++;
 		    int i_8_ = 0;
 		    byte[][] is
-			= client.aClass495_10935.method5974(i_7_, (byte) -58);
+			= client.gameScene.method5974(i_7_, (byte) -58);
 		    if (is != null)
 			i_8_ = 8 * (is[i_5_][i_6_] & 0xff) << 2;
 		    if (null != class538.aClass137Array7161

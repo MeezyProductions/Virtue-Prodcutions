@@ -228,14 +228,14 @@ public class Class92
 				 int i_24_, int i_25_, int i_26_, int i_27_,
 				 int i_28_, int i_29_) {
 	if (i_22_ >= 1 && i_23_ >= 1
-	    && i_22_ <= client.aClass495_10935.method6029((short) 29531) - 2
-	    && i_23_ <= client.aClass495_10935.method5967(-74178691) - 2) {
+	    && i_22_ <= client.gameScene.method6029((short) 29531) - 2
+	    && i_23_ <= client.gameScene.method5967(-74178691) - 2) {
 	    int i_30_ = i;
-	    if (i_30_ < 3 && client.aClass495_10935.method6006((byte) 0)
+	    if (i_30_ < 3 && client.gameScene.method6006((byte) 0)
 				 .method5633(i_22_, i_23_, (short) 414))
 		i_30_++;
-	    if (client.aClass495_10935.method5973((byte) 52) != null) {
-		client.aClass495_10935.method6024(-765386834).method9154
+	    if (client.gameScene.method5973((byte) 52) != null) {
+		client.gameScene.method6024(-765386834).method9154
 		    (Class587.aClass173_7714, i, i_21_, i_22_, i_23_,
 		     (byte) -12);
 		if (i_24_ >= 0) {
@@ -245,7 +245,7 @@ public class Class92
 		    Class514.aClass528_Sub38_6967.method9556
 			(Class514.aClass528_Sub38_6967.aClass691_Sub4_10578, 1,
 			 1446436853);
-		    client.aClass495_10935.method6024(-765386834).method9152
+		    client.gameScene.method6024(-765386834).method9152
 			(Class587.aClass173_7714, i_30_, i, i_22_, i_23_,
 			 i_24_, i_25_, i_26_, i_27_, i_28_, (byte) 0);
 		    Class514.aClass528_Sub38_6967.method9556

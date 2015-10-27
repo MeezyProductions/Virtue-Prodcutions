@@ -106,17 +106,17 @@ public class VarDomainType implements IClientEnum {
 		if (-1 != i_8_) {
 			int i_9_ = i_8_ >> 14 & 0x3fff;
 			int i_10_ = i_8_ & 0x3fff;
-			Class578 class578 = client.aClass495_10935.method5966(1273279609);
+			Class578 class578 = client.gameScene.method5966(1273279609);
 			i_9_ -= class578.anInt7607 * 961465569;
 			if (i_9_ < 0)
 				i_9_ = 0;
-			else if (i_9_ >= client.aClass495_10935.method6029((short) 21569))
-				i_9_ = client.aClass495_10935.method6029((short) 11641);
+			else if (i_9_ >= client.gameScene.method6029((short) 21569))
+				i_9_ = client.gameScene.method6029((short) 11641);
 			i_10_ -= class578.anInt7608 * -173815201;
 			if (i_10_ < 0)
 				i_10_ = 0;
-			else if (i_10_ >= client.aClass495_10935.method5967(1136868875))
-				i_10_ = client.aClass495_10935.method5967(1153746770);
+			else if (i_10_ >= client.gameScene.method5967(1136868875))
+				i_10_ = client.gameScene.method5967(1153746770);
 			Class690_Sub2.anInt10780 = (256 + (i_9_ << 9)) * -1603116895;
 			Class386.anInt4069 = -1476949137 * ((i_10_ << 9) + 256);
 		} else {

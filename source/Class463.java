@@ -216,19 +216,19 @@ public final class Class463
     
     public static final int method5602(int i, int i_9_, int i_10_, int i_11_,
 				       int i_12_, int i_13_) {
-	if (client.aClass495_10935.method5973((byte) 13) == null)
+	if (client.gameScene.method5973((byte) 13) == null)
 	    return 0;
 	if (i_12_ < 3) {
-	    Class466 class466 = client.aClass495_10935.method6006((byte) 0);
+	    Class466 class466 = client.gameScene.method6006((byte) 0);
 	    int i_14_ = i >> 9;
 	    int i_15_ = i_9_ >> 9;
 	    if (i_10_ < 0 || i_11_ < 0
-		|| i_10_ > client.aClass495_10935.method6029((short) 17218) - 1
-		|| i_11_ > client.aClass495_10935.method5967(651960518) - 1)
+		|| i_10_ > client.gameScene.method6029((short) 17218) - 1
+		|| i_11_ > client.gameScene.method5967(651960518) - 1)
 		return 0;
 	    if (i_14_ < 1 || i_15_ < 1
-		|| i_14_ > client.aClass495_10935.method6029((short) 11499) - 1
-		|| i_15_ > client.aClass495_10935.method5967(-39329055) - 1)
+		|| i_14_ > client.gameScene.method6029((short) 11499) - 1
+		|| i_15_ > client.gameScene.method5967(-39329055) - 1)
 		return 0;
 	    boolean bool
 		= 0 != (class466.aByteArrayArrayArray5312[1][i >> 9][i_9_ >> 9]
@@ -262,7 +262,7 @@ public final class Class463
 	    if (bool)
 		i_12_++;
 	}
-	return client.aClass495_10935.method5973((byte) 26)
+	return client.gameScene.method5973((byte) 26)
 		   .aClass137Array7161[i_12_].method1656(i, i_9_, 1460947409);
     }
 }

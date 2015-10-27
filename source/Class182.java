@@ -26,7 +26,7 @@ public final class Class182
 	    if (-1832008567 * anInt2096 >= 0) {
 		((Class182) this).aClass645_Sub1_Sub5_Sub1_Sub1_2098
 		    = (new NPC
-		       (client.aClass495_10935.method5973((byte) 101), 25));
+		       (client.gameScene.method5973((byte) 101), 25));
 		((Class182) this).aClass645_Sub1_Sub5_Sub1_Sub1_2098.anInt11783
 		    = ((Class182) this).anInt2099 * -2092310365;
 		((Class182) this).aClass645_Sub1_Sub5_Sub1_Sub1_2098.anInt11758
@@ -52,7 +52,7 @@ public final class Class182
 	    } else {
 		((Class182) this).aClass645_Sub1_Sub5_Sub1_Sub2_2095
 		    = (new Player
-		       (client.aClass495_10935.method5973((byte) 107), 25));
+		       (client.gameScene.method5973((byte) 107), 25));
 		((Class182) this).aClass645_Sub1_Sub5_Sub1_Sub2_2095
 		    .decodeCharacterData(Class487.aClass528_Sub42_5493, -863151904);
 		((Class182) this).aClass645_Sub1_Sub5_Sub1_Sub2_2095.anInt11783

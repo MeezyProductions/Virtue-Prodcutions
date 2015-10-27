@@ -93,9 +93,9 @@ public class Class416
 	Class223.method3159(-2084556360);
 	Class452.method5450(549850523);
 	Class666.method7908(false, 274535491);
-	client.aClass495_10935.method5983(1547292948);
-	client.aClass495_10935.method6049(1719110321);
-	client.aClass495_10935.method5977(2065561127);
+	client.gameScene.method5983(1547292948);
+	client.gameScene.method6049(1719110321);
+	client.gameScene.method5977(2065561127);
 	OutgoingOpcode.method4860(-354695735);
 	Class327.method4262(115096820);
 	Class50.method894(true, (byte) -73);

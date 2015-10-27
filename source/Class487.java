@@ -121,7 +121,7 @@ public class Class487
 	    } else if (i == 4)
 		Class97.method1290(-1818663371);
 	    if (Class667.method7910(i, 427984074))
-		client.aClass495_10935.method6034(-1787321341);
+		client.gameScene.method6034(-1787321341);
 	    if (1 == i || 8 == i)
 		Class592.method7081((short) 23022);
 	    boolean bool = (i == 15 || ScenePacketType.method4846(i, 301297712)

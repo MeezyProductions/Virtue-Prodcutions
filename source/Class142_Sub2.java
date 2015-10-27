@@ -32,7 +32,7 @@ public class Class142_Sub2 extends Class142
     }
     
     static final void method8323(long l) {
-	if (client.aClass495_10935.method5973((byte) 113) != null) {
+	if (client.gameScene.method5973((byte) 113) != null) {
 	    if (4 == Class390.anInt4111 * -1860881523
 		|| -1860881523 * Class390.anInt4111 == 2)
 		Class89.method1210(l);

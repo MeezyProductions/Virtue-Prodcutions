@@ -89,7 +89,7 @@ public class Class62
 						  .aClass691_Sub35_10597),
 						 4, 255697044);
 	Class662.method7878(1119281887);
-	client.aClass495_10935.method5975(40788639).method7492(1383331746);
+	client.gameScene.method5975(40788639).method7492(1383331746);
 	client.aBool10896 = true;
     }
     
@@ -142,7 +142,7 @@ public class Class62
 				       (byte) -66)) {
 	    Class596 class596
 		= ((Class596)
-		   (client.aClass495_10935.method5976((short) 25792).method63
+		   (client.gameScene.method5976((short) 25792).method63
 		    ((int) ((1856775008213551683L
 			     * (((Class528_Sub21_Sub11) class528_sub21_sub11)
 				.aLong11589)) >>> 32

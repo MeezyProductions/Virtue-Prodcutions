@@ -613,9 +613,9 @@ public class Class290 implements Interface28
 		if (class528_sub9.anInt10276 * -419484275 >= 0
 		    && 1250348405 * class528_sub9.anInt10288 >= 0
 		    && (class528_sub9.anInt10276 * -419484275
-			< client.aClass495_10935.method6029((short) 13457))
+			< client.gameScene.method6029((short) 13457))
 		    && (1250348405 * class528_sub9.anInt10288
-			< client.aClass495_10935.method5967(1565491255)))
+			< client.gameScene.method5967(1565491255)))
 		    Class181_Sub5.method8958(class528_sub9, 1768748686);
 	    } else
 		class528_sub9.method6443(271996302);

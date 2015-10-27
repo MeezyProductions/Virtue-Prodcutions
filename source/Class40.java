@@ -170,7 +170,7 @@ public class Class40 implements Runnable
 	float f_13_ = 0.0F;
 	float f_14_ = 0.0F;
 	float f_15_ = 0.0F;
-	Class538 class538 = client.aClass495_10935.method5973((byte) 2);
+	Class538 class538 = client.gameScene.method5973((byte) 2);
 	for (/**/; f_9_ < 1.1F; f_9_ += 0.1F) {
 	    float f_16_ = f_9_ * f_10_ + f;
 	    float f_17_ = f_3_ + f_9_ * f_11_;
@@ -178,11 +178,11 @@ public class Class40 implements Runnable
 	    int i_19_ = (int) f_16_ >> 9;
 	    int i_20_ = (int) f_18_ >> 9;
 	    if (i_19_ > 0 && i_20_ > 0
-		&& i_19_ < client.aClass495_10935.method6029((short) 3481)
-		&& i_20_ < client.aClass495_10935.method5967(47707871)) {
+		&& i_19_ < client.gameScene.method6029((short) 3481)
+		&& i_20_ < client.gameScene.method5967(47707871)) {
 		int i_21_
 		    = Class108.myPlayer.aByte10675;
-		if (i_21_ < 3 && ((client.aClass495_10935.method6006((byte) 0)
+		if (i_21_ < 3 && ((client.gameScene.method6006((byte) 0)
 				   .aByteArrayArrayArray5312[1][i_19_][i_20_])
 				  & 0x2) != 0)
 		    i_21_++;

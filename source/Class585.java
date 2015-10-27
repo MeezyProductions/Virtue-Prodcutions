@@ -106,6 +106,6 @@ public class Class585 implements IClientEnum
 	      != 0) ? 1 : 0,
 	     1104001504);
 	Class243.method3387(2144743295);
-	client.aClass495_10935.method5989(2016078152);
+	client.gameScene.method5989(2016078152);
     }
 }

@@ -231,14 +231,14 @@ public class Class50 implements IClientEnum
 	Class59.method996(2072323598);
 	Class587.aClass173_7714.method2503(20000);
 	Class587.aClass173_7714.method2537(32);
-	client.aClass495_10935.method6022(2044543841);
+	client.gameScene.method6022(2044543841);
 	if (Class587.aClass173_7714.method2164())
 	    Class90.method1215(Class514.aClass528_Sub38_6967
 				   .aClass691_Sub19_10601
 				   .method9967(-1493873857) == 1,
 			       338511067);
-	client.aClass495_10935.method5985(true, 1447915114);
-	client.aClass495_10935.method5975(-1434945094).method7492(422236136);
+	client.gameScene.method5985(true, 1447915114);
+	client.gameScene.method5975(-1434945094).method7492(422236136);
 	Class476.method5837(-71198188);
 	client.aBool11161 = false;
 	client.aBool11150 = false;

@@ -285,7 +285,7 @@ public class Class553 implements Runnable {
 	}
 
 	static void decodeLocation(BitBuffer buf, int i, int i_17_) {
-		Class578 class578 = client.aClass495_10935.method5966(1273279609);
+		Class578 class578 = client.gameScene.method5966(1273279609);
 		boolean bool = buf.readBits(1, (byte) -26) == 1;
 		if (bool)
 			GPI.anIntArray1206[(GPI.maskCount += 781549791) * -2062664929 - 1] = i;
@@ -428,7 +428,7 @@ public class Class553 implements Runnable {
 					player.method10922(i_33_, i_34_, (GPI.aByteArray1194[i]), 1549287964);
 				}
 				player.aByte10675 = player.aByte10674 = (byte) (player.aByte10675 + i_30_ & 0x3);
-				if (client.aClass495_10935.method6006((byte) 0).method5633(i_33_, i_34_, (short) -2423))
+				if (client.gameScene.method6006((byte) 0).method5633(i_33_, i_34_, (short) -2423))
 					player.aByte10674++;
 				if (-1453744879 * client.anInt11025 == i && (player.aByte10675 != 1926870089 * Class181_Sub5.anInt9778))
 					Class181_Sub5.anInt9778 = (-1552384519 * player.aByte10675);
@@ -449,7 +449,7 @@ public class Class553 implements Runnable {
 					player.method10922(i_40_, i_41_, (GPI.aByteArray1194[i]), 1469124776);
 				}
 				player.aByte10675 = player.aByte10674 = (byte) (player.aByte10675 + i_37_ & 0x3);
-				if (client.aClass495_10935.method6006((byte) 0).method5633(i_40_, i_41_, (short) -3402))
+				if (client.gameScene.method6006((byte) 0).method5633(i_40_, i_41_, (short) -3402))
 					player.aByte10674++;
 				if (-1453744879 * client.anInt11025 == i)
 					Class181_Sub5.anInt9778 = (-1552384519 * player.aByte10675);

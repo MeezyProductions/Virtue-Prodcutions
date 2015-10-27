@@ -293,12 +293,12 @@ public class Class11
 	    Class422 class422
 		= (Class108.myPlayer.method7693()
 		   .aClass422_4868);
-	    Class466 class466 = client.aClass495_10935.method6006((byte) 0);
+	    Class466 class466 = client.gameScene.method6006((byte) 0);
 	    if (Class390.anInt4111 * -1860881523 == 4
 		|| Class390.anInt4111 * -1860881523 == 6
 		|| -1 != Class690_Sub2.anInt10780 * -958954655) {
 		Class578 class578
-		    = client.aClass495_10935.method5966(1273279609);
+		    = client.gameScene.method5966(1273279609);
 		int i_28_;
 		int i_29_;
 		if (-1860881523 * Class390.anInt4111 == 6) {
@@ -379,13 +379,13 @@ public class Class11
 				else
 				    i_38_ = i_32_ - i_35_;
 				if (i_37_ == 0 && 0 == i_38_
-				    || i_37_ <= -client.aClass495_10935
+				    || i_37_ <= -client.gameScene
 						     .method6029((short) 25177)
-				    || i_37_ >= client.aClass495_10935
+				    || i_37_ >= client.gameScene
 						    .method6029((short) 25835)
-				    || i_38_ <= -client.aClass495_10935
+				    || i_38_ <= -client.gameScene
 						     .method5967(1411320189)
-				    || i_38_ >= client.aClass495_10935
+				    || i_38_ >= client.gameScene
 						    .method5967(1544087287)) {
 				    if (Class390.anInt4111 * -1860881523 != 6)
 					VarDomainType.method5340

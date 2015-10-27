@@ -88,7 +88,7 @@ public class Class97
 						  .aClass691_Sub35_10597),
 						 4, 1049179354);
 	Class662.method7878(1119281887);
-	client.aClass495_10935.method5975(-754661298).method7492(-772093497);
+	client.gameScene.method5975(-754661298).method7492(-772093497);
 	client.aBool10896 = true;
     }
     
@@ -261,7 +261,7 @@ public class Class97
 						  .aClass691_Sub35_10597),
 						 2, 716335684);
 	Class662.method7878(1119281887);
-	client.aClass495_10935.method5975(-1969378465).method7492(629587613);
+	client.gameScene.method5975(-1969378465).method7492(629587613);
 	client.aBool10896 = true;
     }
     
@@ -335,7 +335,7 @@ public class Class97
 						  .aClass691_Sub35_10597),
 						 4, 1402491913);
 	Class662.method7878(1119281887);
-	client.aClass495_10935.method5975(-1823710024).method7492(-435274855);
+	client.gameScene.method5975(-1823710024).method7492(-435274855);
 	client.aBool10896 = true;
     }
     
@@ -409,7 +409,7 @@ public class Class97
 						  .aClass691_Sub35_10597),
 						 4, 87224086);
 	Class662.method7878(1119281887);
-	client.aClass495_10935.method5975(-185379808).method7492(116744545);
+	client.gameScene.method5975(-185379808).method7492(116744545);
 	client.aBool10896 = true;
     }
     
@@ -483,7 +483,7 @@ public class Class97
 						  .aClass691_Sub35_10597),
 						 4, 1078764147);
 	Class662.method7878(1119281887);
-	client.aClass495_10935.method5975(-1250851652).method7492(147371780);
+	client.gameScene.method5975(-1250851652).method7492(147371780);
 	client.aBool10896 = true;
     }
     
@@ -567,7 +567,7 @@ public class Class97
 						  .aClass691_Sub35_10597),
 						 3, 747968006);
 	Class662.method7878(1119281887);
-	client.aClass495_10935.method5975(-846103499).method7492(281419924);
+	client.gameScene.method5975(-846103499).method7492(281419924);
 	client.aBool10896 = true;
     }
     
@@ -641,7 +641,7 @@ public class Class97
 						  .aClass691_Sub35_10597),
 						 3, 2086048877);
 	Class662.method7878(1119281887);
-	client.aClass495_10935.method5975(-875467703).method7492(138126704);
+	client.gameScene.method5975(-875467703).method7492(138126704);
 	client.aBool10896 = true;
     }
     
@@ -715,7 +715,7 @@ public class Class97
 						  .aClass691_Sub35_10597),
 						 3, 971316888);
 	Class662.method7878(1119281887);
-	client.aClass495_10935.method5975(-2775402).method7492(351680408);
+	client.gameScene.method5975(-2775402).method7492(351680408);
 	client.aBool10896 = true;
     }
     
@@ -789,7 +789,7 @@ public class Class97
 						  .aClass691_Sub35_10597),
 						 2, 376065652);
 	Class662.method7878(1119281887);
-	client.aClass495_10935.method5975(-1979106224).method7492(455343815);
+	client.gameScene.method5975(-1979106224).method7492(455343815);
 	client.aBool10896 = true;
     }
     
@@ -863,7 +863,7 @@ public class Class97
 						  .aClass691_Sub35_10597),
 						 4, 1557195897);
 	Class662.method7878(1119281887);
-	client.aClass495_10935.method5975(-609810642).method7492(-767028371);
+	client.gameScene.method5975(-609810642).method7492(-767028371);
 	client.aBool10896 = true;
     }
     

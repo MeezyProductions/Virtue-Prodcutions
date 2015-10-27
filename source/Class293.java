@@ -543,7 +543,7 @@ public class Class293 {
 					Class528_Sub21_Sub9.aClass446_11578);
 			Class395.aClass5_Sub15_4153 = new Class5_Sub15(client.aClass673_11108, Class378_Sub2.aClass668_10123, true,
 					Class516.aClass446_6970, Class287.aClass446_3161);
-			client.aClass495_10935.method5981(Class395.aClass5_Sub15_4153, 1632598821);
+			client.gameScene.method5981(Class395.aClass5_Sub15_4153, 1632598821);
 			Class590.aClass488_7736.method5894(new Class5_Sub15(client.aClass673_11108, Class378_Sub2.aClass668_10123,
 					true, Class516.aClass446_6970, Class287.aClass446_3161), 1758291004);
 			Class208.aClass5_Sub6_2238 = new Class5_Sub6(client.aClass673_11108, Class378_Sub2.aClass668_10123,
@@ -619,7 +619,7 @@ public class Class293 {
 		}
 		if (Class286.aClass286_3137 == Class236.aClass286_2596)
 			Class518.method6326(Class579.aClass446_7612, Class43.aClass446_530, Class160.aClass5_Sub11_1805,
-					Class224.aClass5_Sub18_2330, client.aClass495_10935.method5976((short) 22641),
+					Class224.aClass5_Sub18_2330, client.gameScene.method5976((short) 22641),
 					Class208.aClass5_Sub6_2238, Class316_Sub3.aClass5_Sub16_10053, Class570.playerVarsProvider,
 					Class570.playerVarsProvider);
 		if (Class236.aClass286_2596 == Class286.aClass286_3142) {
@@ -932,7 +932,7 @@ public class Class293 {
 					Class528_Sub21_Sub9.aClass446_11578);
 			Class395.aClass5_Sub15_4153 = new Class5_Sub15(client.aClass673_11108, Class378_Sub2.aClass668_10123, true,
 					Class516.aClass446_6970, Class287.aClass446_3161);
-			client.aClass495_10935.method5981(Class395.aClass5_Sub15_4153, -786413719);
+			client.gameScene.method5981(Class395.aClass5_Sub15_4153, -786413719);
 			Class590.aClass488_7736.method5894(new Class5_Sub15(client.aClass673_11108, Class378_Sub2.aClass668_10123,
 					true, Class516.aClass446_6970, Class287.aClass446_3161), 1758291004);
 			Class208.aClass5_Sub6_2238 = new Class5_Sub6(client.aClass673_11108, Class378_Sub2.aClass668_10123,
@@ -1008,7 +1008,7 @@ public class Class293 {
 		}
 		if (Class286.aClass286_3137 == Class236.aClass286_2596)
 			Class518.method6326(Class579.aClass446_7612, Class43.aClass446_530, Class160.aClass5_Sub11_1805,
-					Class224.aClass5_Sub18_2330, client.aClass495_10935.method5976((short) 14323),
+					Class224.aClass5_Sub18_2330, client.gameScene.method5976((short) 14323),
 					Class208.aClass5_Sub6_2238, Class316_Sub3.aClass5_Sub16_10053, Class570.playerVarsProvider,
 					Class570.playerVarsProvider);
 		if (Class236.aClass286_2596 == Class286.aClass286_3142) {

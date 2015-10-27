@@ -57,7 +57,7 @@ public class Class225 implements Interface25
 	Class160.aClass5_Sub11_1805.method538(5, (short) 255);
 	Class224.aClass5_Sub18_2330.method538(5, (short) 255);
 	ISAACCipher.aClass5_Sub7_157.method538(5, (short) 255);
-	client.aClass495_10935.method5976((short) 3634).method538(5,
+	client.gameScene.method5976((short) 3634).method538(5,
 								  (short) 255);
 	Class21.aClass5_Sub8_214.method538(5, (short) 255);
 	Class18.aClass5_Sub13_206.method538(5, (short) 255);

@@ -58,11 +58,11 @@ public class Class55
     static final void method967(int i, int i_2_, int i_3_, int i_4_,
 				Class591 class591, int i_5_) {
 	if (i_3_ >= 1 && i_4_ >= 1
-	    && i_3_ <= client.aClass495_10935.method6029((short) 8375) - 2
-	    && i_4_ <= client.aClass495_10935.method5967(1241575803) - 2) {
-	    if (client.aClass495_10935.method5973((byte) 104) != null) {
+	    && i_3_ <= client.gameScene.method6029((short) 8375) - 2
+	    && i_4_ <= client.gameScene.method5967(1241575803) - 2) {
+	    if (client.gameScene.method5973((byte) 104) != null) {
 		Interface60 interface60
-		    = client.aClass495_10935.method6024(-765386834)
+		    = client.gameScene.method6024(-765386834)
 			  .method9155(i, i_2_, i_3_, i_4_, (short) 10967);
 		if (interface60 != null) {
 		    if (interface60 instanceof Class645_Sub1_Sub5_Sub2)

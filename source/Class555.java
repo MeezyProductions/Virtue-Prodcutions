@@ -122,17 +122,17 @@ public class Class555
 	       [(((Class648) class648).anInt8395 -= 1239022665) * 717927929]);
 	int i_6_ = i_5_ >> 14 & 0x3fff;
 	int i_7_ = i_5_ & 0x3fff;
-	Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	Class578 class578 = client.gameScene.method5966(1273279609);
 	i_6_ -= class578.anInt7607 * 961465569;
 	if (i_6_ < 0)
 	    i_6_ = 0;
-	else if (i_6_ >= client.aClass495_10935.method6029((short) 27113))
-	    i_6_ = client.aClass495_10935.method6029((short) 23089);
+	else if (i_6_ >= client.gameScene.method6029((short) 27113))
+	    i_6_ = client.gameScene.method6029((short) 23089);
 	i_7_ -= class578.anInt7608 * -173815201;
 	if (i_7_ < 0)
 	    i_7_ = 0;
-	else if (i_7_ >= client.aClass495_10935.method5967(1143085132))
-	    i_7_ = client.aClass495_10935.method5967(508656990);
+	else if (i_7_ >= client.gameScene.method5967(1143085132))
+	    i_7_ = client.gameScene.method5967(508656990);
 	client.anInt10972 = (256 + (i_6_ << 9)) * 1852466897;
 	client.anInt10973 = -1016106627 * ((i_7_ << 9) + 256);
 	Class390.anInt4111 = 1043416901;

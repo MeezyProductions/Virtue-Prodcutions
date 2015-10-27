@@ -89,7 +89,7 @@ public class Class424 implements Interface7
 	    [(((Class648) class648).anInt8395 += 1239022665) * 717927929 - 1]
 	    = i_1_;
 	Class287.method3864((byte) 1);
-	client.aClass495_10935.method5989(2016078152);
+	client.gameScene.method5989(2016078152);
 	Class243.method3387(2145557941);
 	client.aBool11161 = false;
     }

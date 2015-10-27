@@ -565,7 +565,7 @@ public class Class239 implements Definition {
 		Class514.aClass528_Sub38_6967.method9556((Class514.aClass528_Sub38_6967.aClass691_Sub13_10587), 2, 1144486095);
 		Class514.aClass528_Sub38_6967.method9556((Class514.aClass528_Sub38_6967.aClass691_Sub35_10597), 1, 762245699);
 		Class662.method7878(1119281887);
-		client.aClass495_10935.method5975(-1425390788).method7492(1474690217);
+		client.gameScene.method5975(-1425390788).method7492(1474690217);
 		client.aBool10896 = true;
 	}
 

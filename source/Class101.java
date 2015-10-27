@@ -13,13 +13,13 @@ public class Class101
     
     public static void method1336() {
 	if (!aBool1286) {
-	    Class282.method3757((client.aClass495_10935.method5973((byte) 123)
+	    Class282.method3757((client.gameScene.method5973((byte) 123)
 				 .aClass546ArrayArrayArray7162),
 				1624115207);
-	    if ((client.aClass495_10935.method5973((byte) 55)
+	    if ((client.gameScene.method5973((byte) 55)
 		 .aClass546ArrayArrayArray7164)
 		!= null)
-		Class282.method3757((client.aClass495_10935.method5973
+		Class282.method3757((client.gameScene.method5973
 				     ((byte) 28).aClass546ArrayArrayArray7164),
 				    2064566122);
 	    aBool1286 = true;
@@ -28,13 +28,13 @@ public class Class101
     
     public static void method1337() {
 	if (!aBool1286) {
-	    Class282.method3757((client.aClass495_10935.method5973((byte) 121)
+	    Class282.method3757((client.gameScene.method5973((byte) 121)
 				 .aClass546ArrayArrayArray7162),
 				1883849995);
-	    if ((client.aClass495_10935.method5973((byte) 67)
+	    if ((client.gameScene.method5973((byte) 67)
 		 .aClass546ArrayArrayArray7164)
 		!= null)
-		Class282.method3757((client.aClass495_10935.method5973
+		Class282.method3757((client.gameScene.method5973
 				     ((byte) 83).aClass546ArrayArrayArray7164),
 				    1789608660);
 	    aBool1286 = true;
@@ -43,13 +43,13 @@ public class Class101
     
     public static void method1338() {
 	if (!aBool1286) {
-	    Class282.method3757((client.aClass495_10935.method5973((byte) 121)
+	    Class282.method3757((client.gameScene.method5973((byte) 121)
 				 .aClass546ArrayArrayArray7162),
 				2118109943);
-	    if ((client.aClass495_10935.method5973((byte) 18)
+	    if ((client.gameScene.method5973((byte) 18)
 		 .aClass546ArrayArrayArray7164)
 		!= null)
-		Class282.method3757((client.aClass495_10935.method5973
+		Class282.method3757((client.gameScene.method5973
 				     ((byte) 73).aClass546ArrayArrayArray7164),
 				    2050347613);
 	    aBool1286 = true;

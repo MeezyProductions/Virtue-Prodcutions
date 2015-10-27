@@ -97,7 +97,7 @@ public class Class531
 		    = Class495.aClass283_Sub1_5578.method3811(1165194288)
 			  .method4241(-1405057790);
 		Class578 class578
-		    = client.aClass495_10935.method5966(1273279609);
+		    = client.gameScene.method5966(1273279609);
 		Class309_Sub1.anInt9907
 		    = ((int) ((double) Class495.aClass283_Sub1_5578
 					   .method3791(882092435)

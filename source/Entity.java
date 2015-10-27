@@ -321,8 +321,8 @@ public abstract class Entity extends Class645_Sub1_Sub5 implements Interface30 {
 		int i_41_ = (int) class437.aClass422_4868.aFloat4780 >> 9;
 		int i_42_ = (int) class437.aClass422_4868.aFloat4777 >> 9;
 		if (aClass538_10676 != null && i_41_ >= 1 && i_42_ >= 1
-				&& i_41_ <= client.aClass495_10935.method6029((short) 9544) - 1
-				&& i_42_ <= client.aClass495_10935.method5967(1835886217) - 1) {
+				&& i_41_ <= client.gameScene.method6029((short) 9544) - 1
+				&& i_42_ <= client.gameScene.method5967(1835886217) - 1) {
 			Class546 class546 = (aClass538_10676.aClass546ArrayArrayArray7160[aByte10675][i_41_][i_42_]);
 			if (class546 != null && null != class546.aClass645_Sub1_Sub4_7397)
 				return i_40_ + class546.aClass645_Sub1_Sub4_7397.aShort11726;
@@ -546,7 +546,7 @@ public abstract class Entity extends Class645_Sub1_Sub5 implements Interface30 {
 
 	public Class578 method10688(byte i) {
 		Class422 class422 = method7693().aClass422_4868;
-		Class578 class578 = client.aClass495_10935.method5966(1273279609);
+		Class578 class578 = client.gameScene.method5966(1273279609);
 		int i_89_ = (((int) class422.aFloat4780 >> 9) + 961465569 * class578.anInt7607);
 		int i_90_ = (((int) class422.aFloat4777 >> 9) + class578.anInt7608 * -173815201);
 		return new Class578(aByte10675, i_89_, i_90_);
@@ -918,7 +918,7 @@ public abstract class Entity extends Class645_Sub1_Sub5 implements Interface30 {
 
 	public Class528_Sub19 method10718(int i) {
 		Class422 class422 = method7693().aClass422_4868;
-		Class578 class578 = client.aClass495_10935.method5966(1273279609);
+		Class578 class578 = client.gameScene.method5966(1273279609);
 		int i_178_ = class578.anInt7607 * -1650867712 + (int) class422.aFloat4780;
 		int i_179_ = (int) class422.aFloat4776;
 		int i_180_ = (int) class422.aFloat4777 + 1200930304 * class578.anInt7608;

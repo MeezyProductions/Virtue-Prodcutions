@@ -266,13 +266,13 @@ public abstract class Class156 implements Interface22
     
     public static void method1861(int i) {
 	if (!Class101.aBool1286) {
-	    Class282.method3757((client.aClass495_10935.method5973((byte) 47)
+	    Class282.method3757((client.gameScene.method5973((byte) 47)
 				 .aClass546ArrayArrayArray7162),
 				2094365823);
-	    if ((client.aClass495_10935.method5973((byte) 10)
+	    if ((client.gameScene.method5973((byte) 10)
 		 .aClass546ArrayArrayArray7164)
 		!= null)
-		Class282.method3757((client.aClass495_10935.method5973
+		Class282.method3757((client.gameScene.method5973
 				     ((byte) 122)
 				     .aClass546ArrayArrayArray7164),
 				    1910994865);

@@ -395,7 +395,7 @@ public abstract class Class258
 	    Class662.method7879((byte) 44);
 	    return true;
 	} catch (Exception exception) {
-	    Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	    Class578 class578 = client.gameScene.method5966(1273279609);
 	    String string
 		= new StringBuilder().append
 		      (((Class109) class109).current != null

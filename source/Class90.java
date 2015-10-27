@@ -90,7 +90,7 @@ public class Class90
     static final void method1214(Class648 class648, int i) {
 	Class239.method3310(true, (byte) -15);
 	Class287.method3864((byte) 1);
-	client.aClass495_10935.method5989(2016078152);
+	client.gameScene.method5989(2016078152);
 	Class243.method3387(2140706657);
 	client.aBool11161 = false;
     }
@@ -151,7 +151,7 @@ public class Class90
     
     static final void method1217(byte i) {
 	Class209.method2944(836877082);
-	client.aClass495_10935.method6049(1839144109);
+	client.gameScene.method6049(1839144109);
 	for (int i_23_ = 0; i_23_ < client.aClass96Array11016.length; i_23_++)
 	    client.aClass96Array11016[i_23_] = null;
 	for (int i_24_ = 0; i_24_ < client.aClass527Array11010.length; i_24_++)

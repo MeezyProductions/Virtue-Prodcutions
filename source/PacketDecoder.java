@@ -254,19 +254,19 @@ public class PacketDecoder implements Interface25 {
 				Class690_Sub2.anInt10780 = 1603116895;
 				Class386.anInt4069 = 1476949137;
 			} else {
-				Class578 class578 = client.aClass495_10935.method5966(1273279609);
+				Class578 class578 = client.gameScene.method5966(1273279609);
 				int i_32_ = i_31_ >> 14 & 0x3fff;
 				int i_33_ = i_31_ & 0x3fff;
 				i_32_ -= class578.anInt7607 * 961465569;
 				if (i_32_ < 0)
 					i_32_ = 0;
-				else if (i_32_ >= client.aClass495_10935.method6029((short) 15023))
-					i_32_ = client.aClass495_10935.method6029((short) 11198);
+				else if (i_32_ >= client.gameScene.method6029((short) 15023))
+					i_32_ = client.gameScene.method6029((short) 11198);
 				i_33_ -= class578.anInt7608 * -173815201;
 				if (i_33_ < 0)
 					i_33_ = 0;
-				else if (i_33_ >= client.aClass495_10935.method5967(1613669478))
-					i_33_ = client.aClass495_10935.method5967(67234812);
+				else if (i_33_ >= client.gameScene.method5967(1613669478))
+					i_33_ = client.gameScene.method5967(67234812);
 				Class690_Sub2.anInt10780 = (256 + (i_32_ << 9)) * -1603116895;
 				Class386.anInt4069 = -1476949137 * ((i_33_ << 9) + 256);
 			}
@@ -334,7 +334,7 @@ public class PacketDecoder implements Interface25 {
 			int i_45_ = buf.readShortA((byte) -12);
 			int i_46_ = buf.readLEShortA(764150572);
 			int i_47_ = buf.readIntB(833903521);
-			client.aClass495_10935.method5973((byte) 96).method6571(i_46_, i_47_, i_45_, (byte) 16);
+			client.gameScene.method5973((byte) 96).method6571(i_46_, i_47_, i_45_, (byte) 16);
 			class109.current = null;
 			return true;
 		}
@@ -472,12 +472,12 @@ public class PacketDecoder implements Interface25 {
 				i_71_ = -1;
 			boolean bool = 1 == (i_67_ >> 7 & 0x1);
 			if (i_66_ >> 30 != 0) {
-				Class578 class578 = client.aClass495_10935.method5966(1273279609);
+				Class578 class578 = client.gameScene.method5966(1273279609);
 				int i_72_ = i_66_ >> 28 & 0x3;
 				int i_73_ = (i_66_ >> 14 & 0x3fff) - class578.anInt7607 * 961465569;
 				int i_74_ = (i_66_ & 0x3fff) - class578.anInt7608 * -173815201;
-				if (i_73_ >= 0 && i_74_ >= 0 && i_73_ < client.aClass495_10935.method6029((short) 15697)
-						&& i_74_ < client.aClass495_10935.method5967(1139651156)) {
+				if (i_73_ >= 0 && i_74_ >= 0 && i_73_ < client.gameScene.method6029((short) 15697)
+						&& i_74_ < client.gameScene.method5967(1139651156)) {
 					if (i_69_ == -1) {
 						Class528_Sub21_Sub19 class528_sub21_sub19 = ((Class528_Sub21_Sub19) client.aClass692_11044
 								.method8137(i_73_ << 16 | i_74_));
@@ -490,10 +490,10 @@ public class PacketDecoder implements Interface25 {
 						int i_76_ = 512 * i_74_ + 256;
 						int i_77_ = i_72_;
 						if (i_77_ < 3
-								&& client.aClass495_10935.method6006((byte) 0).method5633(i_73_, i_74_, (short) -24701))
+								&& client.gameScene.method6006((byte) 0).method5633(i_73_, i_74_, (short) -24701))
 							i_77_++;
 						Class645_Sub1_Sub5_Sub4 class645_sub1_sub5_sub4 = (new Class645_Sub1_Sub5_Sub4(
-								client.aClass495_10935.method5973((byte) 103), i_69_, i_64_, i_72_, i_77_, i_75_,
+								client.gameScene.method5973((byte) 103), i_69_, i_64_, i_72_, i_77_, i_75_,
 								(Class335_Sub1_Sub1.method10374(i_75_, i_76_, i_72_, -759833206) - i_65_), i_76_, i_73_,
 								i_73_, i_74_, i_74_, i_70_, bool, 0));
 						client.aClass692_11044.method8142(new Class528_Sub21_Sub19(class645_sub1_sub5_sub4),
@@ -943,7 +943,7 @@ public class PacketDecoder implements Interface25 {
 		if (IncomingPacket.aClass396_4162 == class109.current) {
 			Class643 class643 = new Class643();
 			boolean bool = class643.method7613(buf, -335509885);
-			client.aClass495_10935.method5975(-713423507).method7490(client.aClass495_10935, bool ? class643 : null,
+			client.gameScene.method5975(-713423507).method7490(client.gameScene, bool ? class643 : null,
 					class643.method7629(676605846), -1177912203);
 			class109.current = null;
 			return true;
@@ -1082,7 +1082,7 @@ public class PacketDecoder implements Interface25 {
 			Class282.anInt3078 = (buf.method9657((byte) 44) << 3) * -194233733;
 			Class149.anInt1687 = buf.readUnsignedA((byte) -89) * -1488333997;
 			Class197.anInt2202 = (buf.method9627(-2048576960) << 3) * -179720455;
-			Class578 class578 = client.aClass495_10935.method5966(1273279609);
+			Class578 class578 = client.gameScene.method5966(1273279609);
 			for (Class528_Sub2 class528_sub2 = ((Class528_Sub2) client.aClass692_11042.method8146(
 					-1942855841)); class528_sub2 != null; class528_sub2 = (Class528_Sub2) client.aClass692_11042
 							.method8138(1486467907)) {
@@ -1095,8 +1095,8 @@ public class PacketDecoder implements Interface25 {
 						&& i_174_ < 1443738441 * Class197.anInt2202 + 8 && i_176_ >= Class282.anInt3078 * 1582077107
 						&& i_176_ < 1582077107 * Class282.anInt3078 + 8) {
 					class528_sub2.method6443(-1099325118);
-					if (i_174_ >= 0 && i_176_ >= 0 && (i_174_ < client.aClass495_10935.method6029((short) 17409))
-							&& (i_176_ < client.aClass495_10935.method5967(103562176)))
+					if (i_174_ >= 0 && i_176_ >= 0 && (i_174_ < client.gameScene.method6029((short) 17409))
+							&& (i_176_ < client.gameScene.method5967(103562176)))
 						Class17.method645(-457709349 * Class149.anInt1687, i_174_, i_176_, (byte) -120);
 				}
 			}
@@ -1472,7 +1472,7 @@ public class PacketDecoder implements Interface25 {
 			int i_244_ = i_242_ & 0x3;
 			int i_245_ = client.anIntArray10941[i_243_];
 			int i_246_ = buf.readInt(-62940112);
-			Class578 class578 = client.aClass495_10935.method5966(1273279609);
+			Class578 class578 = client.gameScene.method5966(1273279609);
 			i_240_ -= class578.anInt7607 * 961465569;
 			i_241_ -= -173815201 * class578.anInt7608;
 			Class552.method6713(i_239_, i_240_, i_241_, i_245_, i_243_, i_244_, i_246_, i_237_, 1590520992);
@@ -1526,7 +1526,7 @@ public class PacketDecoder implements Interface25 {
 				Class590.aClass488_7736.method5895(new Class498(Class489.DYNAMIC, class528_sub42_sub2_253_),
 						1474700867);
 			else
-				client.aClass495_10935.method5990(new Class498(Class489.DYNAMIC, class528_sub42_sub2_253_), 1268833808);
+				client.gameScene.method5990(new Class498(Class489.DYNAMIC, class528_sub42_sub2_253_), 1268833808);
 			class109.current = null;
 			return false;
 		}
@@ -1640,15 +1640,15 @@ public class PacketDecoder implements Interface25 {
 				i_267_ = (byte) i_267_;
 			else
 				i_267_ *= 4;
-			Class578 class578 = client.aClass495_10935.method5966(1273279609);
+			Class578 class578 = client.gameScene.method5966(1273279609);
 			int i_283_ = i_272_ - 1922931138 * class578.anInt7607;
 			int i_284_ = i_271_ - -347630402 * class578.anInt7608;
 			i_277_ += i_283_;
 			i_278_ += i_284_;
-			if (i_283_ >= 0 && i_284_ >= 0 && (i_283_ < client.aClass495_10935.method6029((short) 11150) * 2)
-					&& (i_284_ < client.aClass495_10935.method6029((short) 31911) * 2) && i_277_ >= 0 && i_278_ >= 0
-					&& i_277_ < client.aClass495_10935.method5967(1513953113) * 2
-					&& i_278_ < client.aClass495_10935.method5967(2065209395) * 2 && i_268_ != 65535) {
+			if (i_283_ >= 0 && i_284_ >= 0 && (i_283_ < client.gameScene.method6029((short) 11150) * 2)
+					&& (i_284_ < client.gameScene.method6029((short) 31911) * 2) && i_277_ >= 0 && i_278_ >= 0
+					&& i_277_ < client.gameScene.method5967(1513953113) * 2
+					&& i_278_ < client.gameScene.method5967(2065209395) * 2 && i_268_ != 65535) {
 				i_283_ *= 256;
 				i_284_ *= 256;
 				i_277_ *= 256;
@@ -2430,7 +2430,7 @@ public class PacketDecoder implements Interface25 {
 					}
 					class96.anInt1224 = 1852280242;
 					class96.anInt1217 = (buf.readUnsignedByte((byte) 69) * 702340923);
-					Class578 class578 = client.aClass495_10935.method5966(1273279609);
+					Class578 class578 = client.gameScene.method5966(1273279609);
 					class96.anInt1218 += ((buf.readUnsignedShort(-308914199) - class578.anInt7607 * 961465569) << 9)
 							* 611830113;
 					class96.anInt1219 += ((buf.readUnsignedShort(-1962169521) - class578.anInt7608 * -173815201) << 9)
@@ -2448,7 +2448,7 @@ public class PacketDecoder implements Interface25 {
 			int i_423_ = buf.readUnsignedByte((byte) 124);
 			int i_424_ = buf.method9645((short) 11384);
 			if (client.aClass527Array11010[i_423_] != null) {
-				client.aClass527Array11010[i_423_].method6417(client.aClass495_10935.method5973((byte) 18),
+				client.aClass527Array11010[i_423_].method6417(client.gameScene.method5973((byte) 18),
 						-1919742742);
 				client.aClass527Array11010[i_423_] = null;
 			}
@@ -2582,7 +2582,7 @@ public class PacketDecoder implements Interface25 {
 			return false;
 		}
 		if (class109.current == IncomingPacket.NPC_UPDATE) {
-			NPC.decodeNPCUpdate((1714247459 * client.aClass495_10935.anInt5577), 352817422);
+			NPC.decodeNPCUpdate((1714247459 * client.gameScene.anInt5577), 352817422);
 			class109.current = null;
 			return true;
 		}
@@ -2768,7 +2768,7 @@ public class PacketDecoder implements Interface25 {
 			if (Class514.aClass528_Sub38_6967.aClass691_Sub31_10602.method10076(-740804623) == 1)
 				Class590.aClass488_7736.method5895(new Class498(Class489.STATIC, buffer), -278110903);
 			else
-				client.aClass495_10935.method5990(new Class498(Class489.STATIC, buffer), 1268833808);
+				client.gameScene.method5990(new Class498(Class489.STATIC, buffer), 1268833808);
 			class109.current = null;
 			return false;
 		}

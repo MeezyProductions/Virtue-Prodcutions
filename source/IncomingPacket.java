@@ -799,7 +799,7 @@ public class IncomingPacket
 						  .aClass691_Sub35_10597),
 						 2, 2076133684);
 	Class662.method7878(1119281887);
-	client.aClass495_10935.method5975(-428632433).method7492(524452545);
+	client.gameScene.method5975(-428632433).method7492(524452545);
 	client.aBool10896 = true;
     }
 }

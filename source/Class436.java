@@ -62,7 +62,7 @@ public class Class436
 	     (((Class648) class648).anIntArray8394
 	      [(((Class648) class648).anInt8395 -= 1239022665) * 717927929]),
 	     16459760);
-	client.aClass495_10935.method5989(2016078152);
+	client.gameScene.method5989(2016078152);
 	Class243.method3387(2145727383);
 	client.aBool11161 = false;
     }
@@ -82,10 +82,10 @@ public class Class436
 	Class249.method3417(1990387192);
 	if (!class173.method2248(-278461980))
 	    return false;
-	int i_5_ = client.aClass495_10935.method6029((short) 10240);
-	int i_6_ = client.aClass495_10935.method5967(1979517229);
-	Class466 class466 = client.aClass495_10935.method6006((byte) 0);
-	Class538 class538 = client.aClass495_10935.method5973((byte) 85);
+	int i_5_ = client.gameScene.method6029((short) 10240);
+	int i_6_ = client.gameScene.method5967(1979517229);
+	Class466 class466 = client.gameScene.method6006((byte) 0);
+	Class538 class538 = client.gameScene.method5973((byte) 85);
 	int i_7_ = i;
 	if (Class108.myPlayer != null) {
 	    int i_8_ = ((Class108.myPlayer
@@ -144,7 +144,7 @@ public class Class436
 	} else
 	    Class322.aClass151_3483
 		= class173.method2418(is, 0, i_17_, i_17_, i_17_, -1035599327);
-	client.aClass495_10935.method5975(-45297529).method7486((byte) 2);
+	client.gameScene.method5975(-45297529).method7486((byte) 2);
 	int i_21_
 	    = ~0xffffff | ((238 + (int) (Math.random() * 20.0) - 10 << 16)
 			   + (238 + (int) (Math.random() * 20.0) - 10 << 8)
@@ -268,11 +268,11 @@ public class Class436
 	Class98.aClass688_1240.method8059((byte) -65);
 	if (!Class98.aBool1253) {
 	    Class501.method6112(i, -732665004);
-	    Class533 class533 = client.aClass495_10935.method5968(-1923641251);
+	    Class533 class533 = client.gameScene.method5968(-1923641251);
 	    if (null != class533) {
 		Class208.aClass5_Sub6_2238.method10148(1024, 64, -1981864030);
 		Class578 class578
-		    = client.aClass495_10935.method5966(1273279609);
+		    = client.gameScene.method5966(1273279609);
 		for (int i_41_ = 0; i_41_ < -595383187 * class533.anInt7130;
 		     i_41_++) {
 		    int i_42_ = class533.anIntArray7129[i_41_];

@@ -35,27 +35,27 @@ public class Class17
     }
     
     public static void method645(int i, int i_4_, int i_5_, byte i_6_) {
-	Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	Class578 class578 = client.gameScene.method5966(1273279609);
 	int i_7_ = class578.anInt7607 * 961465569 + i_4_;
 	int i_8_ = i_5_ + -173815201 * class578.anInt7608;
-	if (client.aClass495_10935.method5973((byte) 109) != null
-	    && (client.aClass495_10935.method6037((byte) -32)
+	if (client.gameScene.method5973((byte) 109) != null
+	    && (client.gameScene.method6037((byte) -32)
 		!= Class489.aClass489_5499)
 	    && i_4_ >= 0 && i_5_ >= 0
-	    && i_4_ < client.aClass495_10935.method6029((short) 10569)
-	    && i_5_ < client.aClass495_10935.method5967(-728534048)) {
+	    && i_4_ < client.gameScene.method6029((short) 10569)
+	    && i_5_ < client.gameScene.method5967(-728534048)) {
 	    long l = (long) (i << 28 | i_8_ << 14 | i_7_);
 	    Class528_Sub2 class528_sub2
 		= (Class528_Sub2) client.aClass692_11042.method8137(l);
 	    if (class528_sub2 == null)
-		client.aClass495_10935.method5973((byte) 45)
+		client.gameScene.method5973((byte) 45)
 		    .method6550(i, i_4_, i_5_, 1158306178);
 	    else {
 		Class528_Sub1 class528_sub1
 		    = ((Class528_Sub1)
 		       class528_sub2.aClass688_10201.method8034(2090927130));
 		if (null == class528_sub1)
-		    client.aClass495_10935.method5973((byte) 83)
+		    client.gameScene.method5973((byte) 83)
 			.method6550(i, i_4_, i_5_, -1848479494);
 		else {
 		    int i_9_ = -1;
@@ -66,14 +66,14 @@ public class Class17
 		    Class433 class433_13_ = null;
 		    Class645_Sub1_Sub2_Sub1 class645_sub1_sub2_sub1
 			= ((Class645_Sub1_Sub2_Sub1)
-			   client.aClass495_10935.method5973((byte) 87)
+			   client.gameScene.method5973((byte) 87)
 			       .method6550(i, i_4_, i_5_, -483733567));
 		    if (class645_sub1_sub2_sub1 == null)
 			class645_sub1_sub2_sub1
 			    = (new Class645_Sub1_Sub2_Sub1
-			       (client.aClass495_10935.method5973((byte) 71),
+			       (client.gameScene.method5973((byte) 71),
 				i_4_ << 265,
-				client.aClass495_10935.method5973
+				client.gameScene.method5973
 				    ((byte) 37).aClass137Array7161[i]
 				    .method1669(i_4_, i_5_, (byte) 0),
 				i_5_ << 265, i, i));
@@ -92,7 +92,7 @@ public class Class17
 			class645_sub1_sub2_sub1.anInt11962 = -381912559;
 			class645_sub1_sub2_sub1_14_.anInt11960 = -2020452173;
 			class645_sub1_sub2_sub1.aClass538_10676
-			    = client.aClass495_10935.method5973((byte) 119);
+			    = client.gameScene.method5973((byte) 119);
 		    }
 		    class645_sub1_sub2_sub1.anInt11959
 			= 1200036937 * class528_sub1.anInt10200;
@@ -218,10 +218,10 @@ public class Class17
 		    class645_sub1_sub2_sub1.anInt11967 = 0;
 		    class645_sub1_sub2_sub1.aByte10675 = (byte) i;
 		    class645_sub1_sub2_sub1.aByte10674 = (byte) i;
-		    if (client.aClass495_10935.method6006((byte) 0)
+		    if (client.gameScene.method6006((byte) 0)
 			    .method5633(i_4_, i_5_, (short) -16333))
 			class645_sub1_sub2_sub1.aByte10674++;
-		    client.aClass495_10935.method5973((byte) 123).method6576
+		    client.gameScene.method5973((byte) 123).method6576
 			(i, i_4_, i_5_, i_17_, class645_sub1_sub2_sub1,
 			 -276908828);
 		}

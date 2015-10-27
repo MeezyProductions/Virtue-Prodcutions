@@ -41,7 +41,7 @@ public class Class181_Sub5 extends Class181
     }
     
     static final void method8958(Class528_Sub9 class528_sub9, int i) {
-	Class538 class538 = client.aClass495_10935.method5973((byte) 50);
+	Class538 class538 = client.gameScene.method5973((byte) 50);
 	if (null != class538) {
 	    Interface60 interface60 = null;
 	    if (-1126754717 * ((Class528_Sub9) class528_sub9).anInt10275 == 0)

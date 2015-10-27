@@ -554,7 +554,7 @@ public class RenderType implements Interface1, Definition
     static boolean method6991(Interface60 interface60, int i) {
 	Class596 class596
 	    = ((Class596)
-	       (client.aClass495_10935.method5976((short) 21786).method63
+	       (client.gameScene.method5976((short) 21786).method63
 		(interface60.method397((short) 7976), -1458438665)));
 	if (class596.anInt7801 * 2063502347 == -1)
 	    return true;

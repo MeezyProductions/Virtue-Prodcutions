@@ -129,12 +129,12 @@ public class Class209 implements Interface26
     
     static final boolean method2945(Class546[][][] class546s, int i, int i_2_,
 				    int i_3_, boolean bool, int i_4_) {
-	byte[][][] is = client.aClass495_10935.method5978((byte) -30);
+	byte[][][] is = client.gameScene.method5978((byte) -30);
 	byte i_5_ = (bool ? (byte) 1
 		     : (byte) (-2032978979 * client.anInt10968 & 0xff));
 	if (is[1926870089 * Class181_Sub5.anInt9778][i_2_][i_3_] == i_5_)
 	    return false;
-	Class466 class466 = client.aClass495_10935.method6006((byte) 0);
+	Class466 class466 = client.gameScene.method6006((byte) 0);
 	if (0 == ((class466.aByteArrayArrayArray5312
 		   [1926870089 * Class181_Sub5.anInt9778][i_2_][i_3_])
 		  & 0x4))
@@ -295,7 +295,7 @@ public class Class209 implements Interface26
 		}
 	    }
 	    if (bool_14_) {
-		int i_30_ = client.aClass495_10935.method5973((byte) 68)
+		int i_30_ = client.gameScene.method5973((byte) 68)
 				.aClass137Array7161
 				[Class181_Sub5.anInt9778 * 1926870089 + 1]
 				.method1669(i_8_, i_11_, (byte) 0);
@@ -323,7 +323,7 @@ public class Class209 implements Interface26
 		    is[Class181_Sub5.anInt9778 * 1926870089][i_8_ - 1][i_11_]
 			= i_5_;
 		}
-		if (++i_11_ < client.aClass495_10935.method5967(246781536)) {
+		if (++i_11_ < client.gameScene.method5967(246781536)) {
 		    if (i_8_ - 1 >= 0
 			&& (is[Class181_Sub5.anInt9778 * 1926870089][i_8_ - 1]
 			    [i_11_]) != i_5_
@@ -353,7 +353,7 @@ public class Class209 implements Interface26
 			    = i_5_;
 		    }
 		    if ((i_8_ + 1
-			 < client.aClass495_10935.method6029((short) 10181))
+			 < client.gameScene.method6029((short) 10181))
 			&& (is[Class181_Sub5.anInt9778 * 1926870089][1 + i_8_]
 			    [i_11_]) != i_5_
 			&& 0 == ((class466.aByteArrayArrayArray5312
@@ -374,7 +374,7 @@ public class Class209 implements Interface26
 		    }
 		}
 		i_11_--;
-		if (i_8_ + 1 < client.aClass495_10935.method6029((short) 6242)
+		if (i_8_ + 1 < client.gameScene.method6029((short) 6242)
 		    && (is[1926870089 * Class181_Sub5.anInt9778][i_8_ + 1]
 			[i_11_]) != i_5_) {
 		    client.anIntArray10955[i_6_]
@@ -414,7 +414,7 @@ public class Class209 implements Interface26
 			    = i_5_;
 		    }
 		    if ((1 + i_8_
-			 < client.aClass495_10935.method6029((short) 25284))
+			 < client.gameScene.method6029((short) 25284))
 			&& (is[Class181_Sub5.anInt9778 * 1926870089][1 + i_8_]
 			    [i_11_]) != i_5_
 			&& ((class466.aByteArrayArrayArray5312

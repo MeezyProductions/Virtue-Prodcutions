@@ -114,7 +114,7 @@ class Class183 implements Interface42
 	    }
 	}
 	Class645_Sub1_Sub5_Sub6 class645_sub1_sub5_sub6
-	    = new Class645_Sub1_Sub5_Sub6(client.aClass495_10935
+	    = new Class645_Sub1_Sub5_Sub6(client.gameScene
 					      .method5973((byte) 37),
 					  i, Class149.anInt1687 * -457709349,
 					  Class149.anInt1687 * -457709349,

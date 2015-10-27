@@ -17,7 +17,7 @@ public class Class171
     }
     
     static boolean method2116(int i, int i_1_, int i_2_, int i_3_) {
-	Class538 class538 = client.aClass495_10935.method5973((byte) 73);
+	Class538 class538 = client.gameScene.method5973((byte) 73);
 	boolean bool = true;
 	Interface60 interface60
 	    = (Interface60) class538.method6600(i, i_1_, i_2_, (byte) -59);

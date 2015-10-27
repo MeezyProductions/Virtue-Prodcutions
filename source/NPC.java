@@ -24,7 +24,7 @@ public class NPC extends Entity {
 	public int anInt12046;
 
 	public Class528_Sub19 method167() {
-		Class578 class578 = client.aClass495_10935.method5966(1273279609);
+		Class578 class578 = client.gameScene.method5966(1273279609);
 		return Class49.method891(aByte10675,
 				((int) method7693().aClass422_4868.aFloat4780 + class578.anInt7607 * -1650867712),
 				-(int) method7693().aClass422_4868.aFloat4776,
@@ -308,7 +308,7 @@ public class NPC extends Entity {
 
 	public void method10902(int i, int i_21_, int i_22_, boolean bool, int i_23_, byte i_24_) {
 		aByte10675 = aByte10674 = (byte) i;
-		if (client.aClass495_10935.method6006((byte) 0).method5633(i_21_, i_22_, (short) -2590))
+		if (client.gameScene.method6006((byte) 0).method5633(i_21_, i_22_, (short) -2590))
 			aByte10674++;
 		if (aClass690_11774.method8067((byte) 100)
 				&& (aClass690_11774.method8073(-528781511).anInt2163 * -1651238579 == 1)) {
@@ -620,7 +620,7 @@ public class NPC extends Entity {
 
 	@Override
 	public Class528_Sub19 method179() {
-		Class578 class578 = client.aClass495_10935.method5966(1273279609);
+		Class578 class578 = client.gameScene.method5966(1273279609);
 		return Class49.method891(aByte10675,
 				((int) method7693().aClass422_4868.aFloat4780 + class578.anInt7607 * -1650867712),
 				-(int) method7693().aClass422_4868.aFloat4776,
@@ -1018,7 +1018,7 @@ public class NPC extends Entity {
 
 	@Override
 	public Class528_Sub19 method169(int i) {
-		Class578 class578 = client.aClass495_10935.method5966(1273279609);
+		Class578 class578 = client.gameScene.method5966(1273279609);
 		return Class49.method891(aByte10675,
 				((int) method7693().aClass422_4868.aFloat4780 + class578.anInt7607 * -1650867712),
 				-(int) method7693().aClass422_4868.aFloat4776,
@@ -1170,7 +1170,7 @@ public class NPC extends Entity {
 
 	@Override
 	public Class528_Sub19 method176() {
-		Class578 class578 = client.aClass495_10935.method5966(1273279609);
+		Class578 class578 = client.gameScene.method5966(1273279609);
 		return Class49.method891(aByte10675,
 				((int) method7693().aClass422_4868.aFloat4780 + class578.anInt7607 * -1650867712),
 				-(int) method7693().aClass422_4868.aFloat4776,
@@ -1250,7 +1250,7 @@ public class NPC extends Entity {
 	    if (null == class528_sub31) {
 		NPC class645_sub1_sub5_sub1_sub1
 		    = (new NPC
-		       (client.aClass495_10935.method5973((byte) 57)));
+		       (client.gameScene.method5973((byte) 57)));
 		class645_sub1_sub5_sub1_sub1.anInt11783 = i_5_ * 1791366607;
 		class528_sub31
 		    = new Class528_Sub31(class645_sub1_sub5_sub1_sub1);

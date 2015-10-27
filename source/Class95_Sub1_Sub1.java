@@ -175,9 +175,9 @@ public class Class95_Sub1_Sub1 extends Class95_Sub1 implements Interface12
 	    = class645_sub1_sub5_sub1.method7693().aClass422_4868;
 	if ((int) class422.aFloat4780 < 512 || (int) class422.aFloat4777 < 512
 	    || ((int) class422.aFloat4780
-		>= (client.aClass495_10935.method6029((short) 3510) - 1) * 512)
+		>= (client.gameScene.method6029((short) 3510) - 1) * 512)
 	    || ((int) class422.aFloat4777
-		>= (client.aClass495_10935.method5967(494100420) - 1) * 512)) {
+		>= (client.gameScene.method5967(494100420) - 1) * 512)) {
 	    class645_sub1_sub5_sub1.aClass690_11774.method8069(-1, (byte) 12);
 	    for (int i_5_ = 0;
 		 i_5_ < class645_sub1_sub5_sub1.aClass494Array11785.length;
@@ -207,10 +207,10 @@ public class Class95_Sub1_Sub1 extends Class95_Sub1 implements Interface12
 	    && ((int) class422.aFloat4780 < 6144
 		|| (int) class422.aFloat4777 < 6144
 		|| ((int) class422.aFloat4780
-		    >= ((client.aClass495_10935.method6029((short) 1128) - 12)
+		    >= ((client.gameScene.method6029((short) 1128) - 12)
 			* 512))
 		|| ((int) class422.aFloat4777
-		    >= ((client.aClass495_10935.method5967(2052997850) - 12)
+		    >= ((client.gameScene.method5967(2052997850) - 12)
 			* 512)))) {
 	    class645_sub1_sub5_sub1.aClass690_11774.method8069(-1, (byte) 12);
 	    for (int i_6_ = 0;

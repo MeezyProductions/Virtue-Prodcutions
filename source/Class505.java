@@ -160,7 +160,7 @@ public class Class505
 	}
 	Class422 class422 = (((Class505) this).aClass645_Sub1_6876.method7693()
 			     .aClass422_4868);
-	Class538 class538 = client.aClass495_10935.method5973((byte) 25);
+	Class538 class538 = client.gameScene.method5973((byte) 25);
 	if (bool_8_) {
 	    class538.method6568(((Class505) this).aClass528_Sub21_Sub12_6884,
 				((Class505) this).aByte6875,
@@ -284,7 +284,7 @@ public class Class505
 	    Class422 class422
 		= (((Class505) this).aClass645_Sub1_6876.method7693()
 		   .aClass422_4868);
-	    client.aClass495_10935.method5973((byte) 116).method6568
+	    client.gameScene.method5973((byte) 116).method6568
 		(((Class505) this).aClass528_Sub21_Sub12_6884,
 		 ((Class505) this).aByte6875, (int) class422.aFloat4780,
 		 (int) class422.aFloat4777, ((Class505) this).aBoolArray6880,

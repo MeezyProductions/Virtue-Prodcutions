@@ -290,7 +290,7 @@ public class Class627
 	    ((0.7F
 	      + (float) Class514.aClass528_Sub38_6967.aClass691_Sub1_10571
 			    .method9538((byte) -47) * 0.1F
-	      + client.aClass495_10935.method5970(2022311177))
+	      + client.gameScene.method5970(2022311177))
 	     * ((Class607) ((Class627) this).aClass607_8162).aFloat7929);
 	((Class627) this).aClass173_8137.method2160
 	    ((1281669227
@@ -309,7 +309,7 @@ public class Class627
 	    ((0.7F
 	      + (float) Class514.aClass528_Sub38_6967.aClass691_Sub1_10571
 			    .method9538((byte) -18) * 0.1F
-	      + client.aClass495_10935.method5970(2022311177))
+	      + client.gameScene.method5970(2022311177))
 	     * ((Class607) ((Class627) this).aClass607_8162).aFloat7929);
 	((Class627) this).aClass173_8137.method2160
 	    ((1281669227
@@ -329,7 +329,7 @@ public class Class627
 	    ((0.7F
 	      + (float) Class514.aClass528_Sub38_6967.aClass691_Sub1_10571
 			    .method9538((byte) -60) * 0.1F
-	      + client.aClass495_10935.method5970(2022311177)) * f);
+	      + client.gameScene.method5970(2022311177)) * f);
 	((Class627) this).aClass173_8137.method2160(i, f_12_, f_13_,
 						    (float) (i_14_ << 2),
 						    (float) (i_15_ << 2),
@@ -421,7 +421,7 @@ public class Class627
 	    ((0.7F
 	      + (float) Class514.aClass528_Sub38_6967.aClass691_Sub1_10571
 			    .method9538((byte) 56) * 0.1F
-	      + client.aClass495_10935.method5970(2022311177)) * 1.1523438F);
+	      + client.gameScene.method5970(2022311177)) * 1.1523438F);
 	((Class627) this).aClass173_8137.method2160(16777215, 0.69921875F,
 						    1.2F, -200.0F, -240.0F,
 						    -200.0F);
@@ -1000,7 +1000,7 @@ public class Class627
 	    ((0.7F
 	      + (float) Class514.aClass528_Sub38_6967.aClass691_Sub1_10571
 			    .method9538((byte) 60) * 0.1F
-	      + client.aClass495_10935.method5970(2022311177)) * 1.1523438F);
+	      + client.gameScene.method5970(2022311177)) * 1.1523438F);
 	((Class627) this).aClass173_8137.method2160(16777215, 0.69921875F,
 						    1.2F, -200.0F, -240.0F,
 						    -200.0F);

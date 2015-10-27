@@ -74,11 +74,11 @@ public class Class471
     
     static final void method5814(int i) {
 	int i_1_ = 0;
-	Class538 class538 = client.aClass495_10935.method5973((byte) 78);
+	Class538 class538 = client.gameScene.method5973((byte) 78);
 	for (int i_2_ = 0;
-	     i_2_ < client.aClass495_10935.method6029((short) 1972); i_2_++) {
+	     i_2_ < client.gameScene.method6029((short) 1972); i_2_++) {
 	    for (int i_3_ = 0;
-		 i_3_ < client.aClass495_10935.method5967(1945228008);
+		 i_3_ < client.gameScene.method5967(1945228008);
 		 i_3_++) {
 		if (Class209.method2945(class538.aClass546ArrayArrayArray7160,
 					i_1_, i_2_, i_3_, true, 1186247430))

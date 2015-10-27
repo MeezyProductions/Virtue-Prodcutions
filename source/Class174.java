@@ -36,7 +36,7 @@ public class Class174
 	Class514.aClass528_Sub38_6967.method9556((Class514.aClass528_Sub38_6967
 						  .aClass691_Sub1_10571),
 						 i_0_, 1623654243);
-	client.aClass495_10935.method5989(2016078152);
+	client.gameScene.method5989(2016078152);
 	Class243.method3387(2136317762);
 	client.aBool11161 = false;
     }

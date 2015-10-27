@@ -53,9 +53,9 @@ public class Class534
 	    Class645_Sub1_Sub5_Sub4 class645_sub1_sub5_sub4
 		= (((Class528_Sub21_Sub19) class528_sub21_sub19)
 		   .aClass645_Sub1_Sub5_Sub4_11688);
-	    if (client.aClass495_10935.method5973((byte) 70) != null
+	    if (client.gameScene.method5973((byte) 70) != null
 		&& class645_sub1_sub5_sub4.method10859(-1864395182))
-		client.aClass495_10935.method5973((byte) 81)
+		client.gameScene.method5973((byte) 81)
 		    .method6545(class645_sub1_sub5_sub4, true, 1358217920);
 	}
     }

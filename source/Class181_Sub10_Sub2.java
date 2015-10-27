@@ -12,14 +12,14 @@ public class Class181_Sub10_Sub2 extends Class181_Sub10
 	int i = 256 + 1809245696 * ((Class181_Sub10_Sub2) this).anInt11390;
 	int i_0_ = 256 + -487239168 * ((Class181_Sub10_Sub2) this).anInt11388;
 	int i_1_ = -1105818949 * ((Class181_Sub10_Sub2) this).anInt11389;
-	if (i_1_ < 3 && (client.aClass495_10935.method6006((byte) 0).method5633
+	if (i_1_ < 3 && (client.gameScene.method6006((byte) 0).method5633
 			 (((Class181_Sub10_Sub2) this).anInt11390 * 792062835,
 			  ((Class181_Sub10_Sub2) this).anInt11388 * 1366391465,
 			  (short) -20324)))
 	    i_1_++;
 	Class645_Sub1_Sub5_Sub4 class645_sub1_sub5_sub4
 	    = (new Class645_Sub1_Sub5_Sub4
-	       (client.aClass495_10935.method5973((byte) 50),
+	       (client.gameScene.method5973((byte) 50),
 		((Class181_Sub10_Sub2) this).anInt9807 * -62166223, 0,
 		((Class181_Sub10_Sub2) this).anInt11389 * -1105818949, i_1_, i,
 		(Class335_Sub1_Sub1.method10374(i, i_0_,
@@ -43,14 +43,14 @@ public class Class181_Sub10_Sub2 extends Class181_Sub10
 	int i_2_ = 256 + 1809245696 * ((Class181_Sub10_Sub2) this).anInt11390;
 	int i_3_ = 256 + -487239168 * ((Class181_Sub10_Sub2) this).anInt11388;
 	int i_4_ = -1105818949 * ((Class181_Sub10_Sub2) this).anInt11389;
-	if (i_4_ < 3 && (client.aClass495_10935.method6006((byte) 0).method5633
+	if (i_4_ < 3 && (client.gameScene.method6006((byte) 0).method5633
 			 (((Class181_Sub10_Sub2) this).anInt11390 * 792062835,
 			  ((Class181_Sub10_Sub2) this).anInt11388 * 1366391465,
 			  (short) 21240)))
 	    i_4_++;
 	Class645_Sub1_Sub5_Sub4 class645_sub1_sub5_sub4
 	    = (new Class645_Sub1_Sub5_Sub4
-	       (client.aClass495_10935.method5973((byte) 77),
+	       (client.gameScene.method5973((byte) 77),
 		((Class181_Sub10_Sub2) this).anInt9807 * -62166223, 0,
 		((Class181_Sub10_Sub2) this).anInt11389 * -1105818949, i_4_,
 		i_2_,
@@ -84,14 +84,14 @@ public class Class181_Sub10_Sub2 extends Class181_Sub10
 	int i = 256 + 1809245696 * ((Class181_Sub10_Sub2) this).anInt11390;
 	int i_5_ = 256 + -487239168 * ((Class181_Sub10_Sub2) this).anInt11388;
 	int i_6_ = -1105818949 * ((Class181_Sub10_Sub2) this).anInt11389;
-	if (i_6_ < 3 && (client.aClass495_10935.method6006((byte) 0).method5633
+	if (i_6_ < 3 && (client.gameScene.method6006((byte) 0).method5633
 			 (((Class181_Sub10_Sub2) this).anInt11390 * 792062835,
 			  ((Class181_Sub10_Sub2) this).anInt11388 * 1366391465,
 			  (short) -4454)))
 	    i_6_++;
 	Class645_Sub1_Sub5_Sub4 class645_sub1_sub5_sub4
 	    = (new Class645_Sub1_Sub5_Sub4
-	       (client.aClass495_10935.method5973((byte) 107),
+	       (client.gameScene.method5973((byte) 107),
 		((Class181_Sub10_Sub2) this).anInt9807 * -62166223, 0,
 		((Class181_Sub10_Sub2) this).anInt11389 * -1105818949, i_6_, i,
 		(Class335_Sub1_Sub1.method10374(i, i_5_,

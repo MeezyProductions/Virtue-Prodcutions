@@ -88,7 +88,7 @@ public class Class181_Sub2 extends Class181
 							    null),
 					       858427788);
 	else {
-	    client.aClass495_10935.method5989(2016078152);
+	    client.gameScene.method5989(2016078152);
 	    Class494.method5961(-111142549);
 	}
     }

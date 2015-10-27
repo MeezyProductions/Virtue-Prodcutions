@@ -624,7 +624,7 @@ public class ProtocolLoop {
 								Class522.aString7051 = class528_sub42_sub2.readString(96292597);
 								Class521.aLong7049 = ((class528_sub42_sub2.method9723(-1349644833)
 										- Class249.method3417(2145179735)) * -5379437869827721439L);
-								client.aClass495_10935.method5976((short) 10430).method10177(client.aBool10966,
+								client.gameScene.method5976((short) 10430).method10177(client.aBool10966,
 										1717393377);
 								Class590.aClass488_7736.method5897(1950226709).method5976((short) 32129)
 										.method10177(client.aBool10966, -148184306);
@@ -761,10 +761,10 @@ public class ProtocolLoop {
 										class528_sub42_sub2.payload, 0, i_25_);
 								Class54.aClass109_624.aClass528_Sub42_Sub2_1378.pointer += i_25_ * 2015001547;
 								if ((Class54.aClass109_624.current) == IncomingPacket.DYNAMIC_REGION)
-									client.aClass495_10935.method5990(
+									client.gameScene.method5990(
 											new Class498(Class489.DYNAMIC, class528_sub42_sub2), 1268833808);
 								else
-									client.aClass495_10935
+									client.gameScene
 											.method5990(new Class498(Class489.STATIC, class528_sub42_sub2), 1268833808);
 								if (((Class54.aClass109_624.aClass528_Sub42_Sub2_1378.pointer) * -185904669) != i_24_)
 									throw new RuntimeException(new StringBuilder()

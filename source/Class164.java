@@ -399,7 +399,7 @@ public class Class164
 	      == 1) ? 1 : 0,
 	     136477086);
 	Class662.method7878(1119281887);
-	client.aClass495_10935.method5975(-624153062).method7492(1957979059);
+	client.gameScene.method5975(-624153062).method7492(1957979059);
 	Class243.method3387(2139662272);
 	client.aBool11161 = false;
     }

@@ -95,7 +95,7 @@ public class Class495
     public void method5971() {
 	if (((Class495) this).aBool5559) {
 	    method6034(-1976962798);
-	    Class495 class495_2_ = client.aClass495_10935;
+	    Class495 class495_2_ = client.gameScene;
 	    ((Class495) this).anInt5563
 		= 1 * ((Class495) class495_2_).anInt5563;
 	    ((Class495) this).anIntArray5566
@@ -564,7 +564,7 @@ public class Class495
 	}
 	boolean bool_19_ = false;
 	if (((Class495) this).aBool5559) {
-	    Class495 class495_20_ = client.aClass495_10935;
+	    Class495 class495_20_ = client.gameScene;
 	    method5988(class495_20_, -78398533);
 	    Class590.aClass488_7736.method5898(class495_20_, 2063313300);
 	    bool_19_ = true;
@@ -577,7 +577,7 @@ public class Class495
 		    /* empty */
 		}
 	    }
-	    client.aClass495_10935 = this;
+	    client.gameScene = this;
 	    class495_20_.method5997(-284807353);
 	    method5996(1, -1514313257);
 	    method5994((short) 19190);
@@ -857,7 +857,7 @@ public class Class495
     public void method5989(int i) {
 	if (((Class495) this).aBool5559) {
 	    method6034(-1987459404);
-	    Class495 class495_44_ = client.aClass495_10935;
+	    Class495 class495_44_ = client.gameScene;
 	    ((Class495) this).anInt5563
 		= 1 * ((Class495) class495_44_).anInt5563;
 	    ((Class495) this).anIntArray5566
@@ -2466,7 +2466,7 @@ public class Class495
     public void method6035() {
 	if (((Class495) this).aBool5559) {
 	    method6034(-1755841732);
-	    Class495 class495_221_ = client.aClass495_10935;
+	    Class495 class495_221_ = client.gameScene;
 	    ((Class495) this).anInt5563
 		= 1 * ((Class495) class495_221_).anInt5563;
 	    ((Class495) this).anIntArray5566

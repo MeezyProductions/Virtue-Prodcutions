@@ -153,7 +153,7 @@ public class Class666 implements IClientEnum
 		Class422 class422
 		    = class645_sub1_sub5_sub1_sub1.method7693().aClass422_4868;
 		Class578 class578
-		    = client.aClass495_10935.method5966(1273279609);
+		    = client.gameScene.method5966(1273279609);
 		int i_5_
 		    = ((int) class422.aFloat4780
 		       - (class645_sub1_sub5_sub1_sub1.anInt12031 * -84722432
@@ -193,7 +193,7 @@ public class Class666 implements IClientEnum
 	    Class160.aClass5_Sub11_1805.method536((byte) 21);
 	    Class224.aClass5_Sub18_2330.method536((byte) 10);
 	    ISAACCipher.aClass5_Sub7_157.method536((byte) -10);
-	    client.aClass495_10935.method5976((short) 6853)
+	    client.gameScene.method5976((short) 6853)
 		.method536((byte) 26);
 	    Class21.aClass5_Sub8_214.method536((byte) 87);
 	    Class18.aClass5_Sub13_206.method536((byte) -12);
@@ -225,7 +225,7 @@ public class Class666 implements IClientEnum
 		    Class58.aByteArrayArray707[i_8_] = null;
 		client.anInt10883 = 0;
 	    }
-	    client.aClass495_10935.method5975(-75570905)
+	    client.gameScene.method5975(-75570905)
 		.method7513((byte) -71);
 	    Class148_Sub1.method8267((byte) -38);
 	    Class287.method3864((byte) 1);

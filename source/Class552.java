@@ -160,17 +160,17 @@ public class Class552 implements Definition, Interface1
 				  int i_9_, int i_10_, int i_11_, int i_12_,
 				  int i_13_) {
 	if (i_6_ >= 0 && i_7_ >= 0
-	    && i_6_ < client.aClass495_10935.method6029((short) 8086) - 1
-	    && i_7_ < client.aClass495_10935.method5967(2138830421) - 1) {
-	    if (client.aClass495_10935.method5973((byte) 21) != null) {
+	    && i_6_ < client.gameScene.method6029((short) 8086) - 1
+	    && i_7_ < client.gameScene.method5967(2138830421) - 1) {
+	    if (client.gameScene.method5973((byte) 21) != null) {
 		if (i_8_ == 0) {
 		    Interface60 interface60
 			= ((Interface60)
-			   client.aClass495_10935.method5973((byte) 68)
+			   client.gameScene.method5973((byte) 68)
 			       .method6600(i, i_6_, i_7_, (byte) -49));
 		    Interface60 interface60_14_
 			= ((Interface60)
-			   client.aClass495_10935.method5973((byte) 40)
+			   client.gameScene.method5973((byte) 40)
 			       .method6554(i, i_6_, i_7_, -665622189));
 		    if (null != interface60 && 2 != i_9_) {
 			if (interface60 instanceof Class645_Sub1_Sub3_Sub1)
@@ -199,7 +199,7 @@ public class Class552 implements Definition, Interface1
 		} else if (i_8_ == 1) {
 		    Interface60 interface60
 			= ((Interface60)
-			   client.aClass495_10935.method5973((byte) 88)
+			   client.gameScene.method5973((byte) 88)
 			       .method6555(i, i_6_, i_7_, -881923819));
 		    if (interface60 != null) {
 			if (interface60 instanceof Class645_Sub1_Sub1_Sub1)
@@ -233,7 +233,7 @@ public class Class552 implements Definition, Interface1
 		} else if (i_8_ == 2) {
 		    Interface60 interface60
 			= ((Interface60)
-			   (client.aClass495_10935.method5973((byte) 115)
+			   (client.gameScene.method5973((byte) 115)
 				.method6583
 			    (i, i_6_, i_7_, client.anInterface62_11170,
 			     2102191850)));
@@ -254,7 +254,7 @@ public class Class552 implements Definition, Interface1
 		} else if (i_8_ == 3) {
 		    Interface60 interface60
 			= ((Interface60)
-			   client.aClass495_10935.method5973((byte) 16)
+			   client.gameScene.method5973((byte) 16)
 			       .method6591(i, i_6_, i_7_, -1982823679));
 		    if (null != interface60) {
 			if (interface60 instanceof Class645_Sub1_Sub4_Sub2)

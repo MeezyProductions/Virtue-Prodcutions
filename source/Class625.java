@@ -126,7 +126,7 @@ final class Class625 implements Interface72
 	Class160.aClass5_Sub11_1805.method539(-1610751184);
 	Class224.aClass5_Sub18_2330.method539(679485481);
 	ISAACCipher.aClass5_Sub7_157.method539(-785489534);
-	client.aClass495_10935.method5976((short) 17429).method539(1027167071);
+	client.gameScene.method5976((short) 17429).method539(1027167071);
 	Class21.aClass5_Sub8_214.method539(1078244381);
 	Class18.aClass5_Sub13_206.method539(-1228856761);
 	Class379.aClass5_Sub4_3966.method539(-1569350010);

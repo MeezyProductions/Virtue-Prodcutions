@@ -303,7 +303,7 @@ public abstract class Class137
 		class173.method2345(Class98.anIntArray1243);
 		class173.method2527();
 		Class578 class578
-		    = client.aClass495_10935.method5966(1273279609);
+		    = client.gameScene.method5966(1273279609);
 		int i_150_;
 		int i_151_;
 		int i_152_;
@@ -333,7 +333,7 @@ public abstract class Class137
 		}
 		int i_154_ = i_150_ / 128 + 48;
 		int i_155_
-		    = (48 + client.aClass495_10935.method5967(462777875) * 4
+		    = (48 + client.gameScene.method5967(462777875) * 4
 		       - i_151_ / 128);
 		if (null != class148)
 		    Class322.aClass151_3483.method1804
@@ -352,7 +352,7 @@ public abstract class Class137
 			 (float) i_154_, (float) i_155_, i_153_, i_152_ << 2,
 			 1, -1, 1);
 		Class533 class533
-		    = client.aClass495_10935.method5968(-1778734952);
+		    = client.gameScene.method5968(-1778734952);
 		for (Class528_Sub17 class528_sub17
 			 = ((Class528_Sub17)
 			    Class98.aClass688_1240.method8034(1734985919));
@@ -381,7 +381,7 @@ public abstract class Class137
 				  - i_151_ / 128);
 		    Class596 class596
 			= ((Class596)
-			   (client.aClass495_10935.method5976
+			   (client.gameScene.method5976
 				((short) 16795).method63
 			    (Class98.anIntArray1249[i_161_], 1623843081)));
 		    if (null != class596.anIntArray7767) {

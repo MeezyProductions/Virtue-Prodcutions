@@ -43,18 +43,18 @@ public class Class152
     }
     
     static final void method1825(byte i, int i_4_) {
-	byte[][][] is = client.aClass495_10935.method5978((byte) -74);
+	byte[][][] is = client.gameScene.method5978((byte) -74);
 	if (is == null) {
-	    is = (new byte[4][client.aClass495_10935.method6029((short) 4591)]
-		  [client.aClass495_10935.method5967(-560168286)]);
-	    client.aClass495_10935.method5979(is, -1616010987);
+	    is = (new byte[4][client.gameScene.method6029((short) 4591)]
+		  [client.gameScene.method5967(-560168286)]);
+	    client.gameScene.method5979(is, -1616010987);
 	}
 	for (int i_5_ = 0; i_5_ < 4; i_5_++) {
 	    for (int i_6_ = 0;
-		 i_6_ < client.aClass495_10935.method6029((short) 2713);
+		 i_6_ < client.gameScene.method6029((short) 2713);
 		 i_6_++) {
 		for (int i_7_ = 0;
-		     i_7_ < client.aClass495_10935.method5967(2062753797);
+		     i_7_ < client.gameScene.method5967(2062753797);
 		     i_7_++)
 		    is[i_5_][i_6_][i_7_] = i;
 	    }

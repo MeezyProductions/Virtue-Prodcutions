@@ -246,20 +246,20 @@ public class Class335_Sub1_Sub1 extends Class335_Sub1
     }
     
     public static final int method10374(int i, int i_5_, int i_6_, int i_7_) {
-	if (client.aClass495_10935.method5973((byte) 85) == null)
+	if (client.gameScene.method5973((byte) 85) == null)
 	    return 0;
 	int i_8_ = i >> 9;
 	int i_9_ = i_5_ >> 9;
 	if (i_8_ < 0 || i_9_ < 0
-	    || i_8_ > client.aClass495_10935.method6029((short) 13484) - 1
-	    || i_9_ > client.aClass495_10935.method5967(1430094396) - 1)
+	    || i_8_ > client.gameScene.method6029((short) 13484) - 1
+	    || i_9_ > client.gameScene.method5967(1430094396) - 1)
 	    return 0;
 	int i_10_ = i_6_;
-	if (i_10_ < 3 && ((client.aClass495_10935.method6006((byte) 0)
+	if (i_10_ < 3 && ((client.gameScene.method6006((byte) 0)
 			   .aByteArrayArrayArray5312[1][i_8_][i_9_])
 			  & 0x2) != 0)
 	    i_10_++;
-	return client.aClass495_10935.method5973((byte) 70)
+	return client.gameScene.method5973((byte) 70)
 		   .aClass137Array7161[i_10_].method1656(i, i_5_, 1913134207);
     }
 }

@@ -126,7 +126,7 @@ public final class Class19
 		Class528_Sub33 class528_sub33
 		    = ((Class528_Sub33)
 		       client.aClass688_10900.method8034(1693684070));
-		if (client.aClass495_10935.method5973((byte) 27) != null) {
+		if (client.gameScene.method5973((byte) 27) != null) {
 		    if (3 == -1860881523 * Class390.anInt4111)
 			Class405.method4875((byte) 50);
 		    else if (5 == -1860881523 * Class390.anInt4111)
@@ -144,7 +144,7 @@ public final class Class19
 		    Class581.method6976((byte) -3);
 		else if (6 == Class390.anInt4111 * -1860881523) {
 		    Class578 class578
-			= client.aClass495_10935.method5966(1273279609);
+			= client.gameScene.method5966(1273279609);
 		    int i_6_ = class578.anInt7607 * 961465569 << 9;
 		    int i_7_ = class578.anInt7608 * -173815201 << 9;
 		    if (8617023563899752735L * Class452.aLong4974 <= 0L)
@@ -159,9 +159,9 @@ public final class Class19
 			float f_9_ = Math.min(f, (float) i_8_);
 			Class495.aClass283_Sub1_5578.method3760
 			    (f_9_ / 1000.0F,
-			     (client.aClass495_10935.method6024(-765386834)
+			     (client.gameScene.method6024(-765386834)
 			      .anIntArrayArrayArray5087),
-			     client.aClass495_10935.method6006((byte) 0), i_6_,
+			     client.gameScene.method6006((byte) 0), i_6_,
 			     i_7_, -2137352661);
 		    }
 		    Class452.aLong4974 = (Class249.method3417(1999764858)
@@ -169,8 +169,8 @@ public final class Class19
 		}
 		Class622.method7420(-100784812);
 		if (9 == 175711435 * client.anInt10876) {
-		    client.aClass495_10935.method5975(-90624100)
-			.method7463(client.aClass495_10935, 1627739188);
+		    client.gameScene.method5975(-90624100)
+			.method7463(client.gameScene, 1627739188);
 		    Class210.method2955((byte) 0);
 		    if (-1054745505 * client.anInt11023 > 10)
 			((Class109) client.aClass109_10930).anInt1394
@@ -195,7 +195,7 @@ public final class Class19
 				&& Class533.method6485((client.anInt10895
 							* 76543593),
 						       (byte) 91)) {
-				client.aClass495_10935.method5990
+				client.gameScene.method5990
 				    (new Class498(Class489.aClass489_5499,
 						  null),
 				     1268833808);
@@ -395,7 +395,7 @@ public final class Class19
 				i_15_ = 0;
 			    else if (i_15_ > 3)
 				i_15_ = 3;
-			    Class578 class578 = client.aClass495_10935
+			    Class578 class578 = client.gameScene
 						    .method5966(1273279609);
 			    Class29.method751
 				(i_15_,
@@ -559,7 +559,7 @@ public final class Class19
     static final void method650(Class648 class648, byte i) {
 	Class62.method1021(-8046763);
 	Class287.method3864((byte) 1);
-	client.aClass495_10935.method5989(2016078152);
+	client.gameScene.method5989(2016078152);
 	Class243.method3387(2145376686);
 	client.aBool11161 = false;
     }

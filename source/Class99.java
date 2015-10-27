@@ -38,7 +38,7 @@ public class Class99
 					     .toString(),
 					 (byte) -36);
 	    else if (i == 22) {
-		Class559 class559 = (client.aClass495_10935.method5973
+		Class559 class559 = (client.gameScene.method5973
 				     ((byte) 1).aClass559_7156);
 		class559.aBool7491 = !class559.aBool7491;
 	    } else if (i == 5)
@@ -98,9 +98,9 @@ public class Class99
 	    else if (i == 15)
 		Class181_Sub2.method8729((byte) 0);
 	    else if (26 == i) {
-		client.aClass495_10935.aLong5558
+		client.gameScene.aLong5558
 		    = Class249.method3417(1901393886) * -8826400789005528605L;
-		client.aClass495_10935.aBool5574 = true;
+		client.gameScene.aBool5574 = true;
 		Class181_Sub2.method8729((byte) 0);
 	    } else if (23 == i) {
 		Class422 class422
@@ -119,7 +119,7 @@ public class Class99
 		       .aClass422_4868);
 		Class364_Sub2.method9236
 		    (new StringBuilder().append("").append
-			 (client.aClass495_10935.method5973((byte) 117)
+			 (client.gameScene.method5973((byte) 117)
 			      .aClass137Array7161
 			      [(Class108.myPlayer
 				.aByte10675)]
@@ -155,13 +155,13 @@ public class Class99
 		Class7.method566(610692023);
 	    } else if (i == 10) {
 		client.anInt10897 = 0;
-		client.aClass495_10935.method5989(2016078152);
+		client.gameScene.method5989(2016078152);
 	    } else if (i == 1) {
 		client.anInt10897 = -1221863335;
-		client.aClass495_10935.method5989(2016078152);
+		client.gameScene.method5989(2016078152);
 	    } else if (21 == i) {
 		client.anInt10897 = 1851240626;
-		client.aClass495_10935.method5989(2016078152);
+		client.gameScene.method5989(2016078152);
 	    }
 	} catch (Exception exception) {
 	    Class364_Sub2.method9236
@@ -740,7 +740,7 @@ public class Class99
 					     .toString(),
 					 (byte) 3);
 	    else if (i == 22) {
-		Class559 class559 = (client.aClass495_10935.method5973
+		Class559 class559 = (client.gameScene.method5973
 				     ((byte) 14).aClass559_7156);
 		class559.aBool7491 = !class559.aBool7491;
 	    } else if (i == 5)
@@ -800,9 +800,9 @@ public class Class99
 	    else if (i == 15)
 		Class181_Sub2.method8729((byte) 0);
 	    else if (26 == i) {
-		client.aClass495_10935.aLong5558
+		client.gameScene.aLong5558
 		    = Class249.method3417(2080061817) * -8826400789005528605L;
-		client.aClass495_10935.aBool5574 = true;
+		client.gameScene.aBool5574 = true;
 		Class181_Sub2.method8729((byte) 0);
 	    } else if (23 == i) {
 		Class422 class422
@@ -821,7 +821,7 @@ public class Class99
 		       .aClass422_4868);
 		Class364_Sub2.method9236
 		    (new StringBuilder().append("").append
-			 (client.aClass495_10935.method5973((byte) 41)
+			 (client.gameScene.method5973((byte) 41)
 			      .aClass137Array7161
 			      [(Class108.myPlayer
 				.aByte10675)]
@@ -857,13 +857,13 @@ public class Class99
 		Class7.method566(-1311440055);
 	    } else if (i == 10) {
 		client.anInt10897 = 0;
-		client.aClass495_10935.method5989(2016078152);
+		client.gameScene.method5989(2016078152);
 	    } else if (i == 1) {
 		client.anInt10897 = -1221863335;
-		client.aClass495_10935.method5989(2016078152);
+		client.gameScene.method5989(2016078152);
 	    } else if (21 == i) {
 		client.anInt10897 = 1851240626;
-		client.aClass495_10935.method5989(2016078152);
+		client.gameScene.method5989(2016078152);
 	    }
 	} catch (Exception exception) {
 	    Class364_Sub2.method9236
@@ -892,7 +892,7 @@ public class Class99
 							    null),
 					       1205382515);
 	else {
-	    client.aClass495_10935.method5989(2016078152);
+	    client.gameScene.method5989(2016078152);
 	    Class494.method5961(1068906539);
 	}
     }

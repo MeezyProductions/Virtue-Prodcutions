@@ -59,7 +59,7 @@ public class Class598 implements IClientEnum
 	if (null != class645_sub1_sub5_sub1.anIntArray11781
 	    || null != class645_sub1_sub5_sub1.anIntArray11805) {
 	    boolean bool = true;
-	    Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	    Class578 class578 = client.gameScene.method5966(1273279609);
 	    for (int i_0_ = 0;
 		 i_0_ < class645_sub1_sub5_sub1.anIntArray11781.length;
 		 i_0_++) {

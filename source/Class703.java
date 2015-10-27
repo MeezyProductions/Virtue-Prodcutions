@@ -135,7 +135,7 @@ public class Class703 implements Iterator
 	     (class648.anIntArray8394
 	      [(class648.anInt8395 -= 1239022665) * 717927929]),
 	     -60611600);
-	client.aClass495_10935.method5989(2016078152);
+	client.gameScene.method5989(2016078152);
 	Class243.method3387(2147184020);
 	client.aBool11161 = false;
     }

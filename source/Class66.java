@@ -136,8 +136,8 @@ public class Class66
 	    class528_sub9.anInt10276 = i_19_ * -2046894779;
 	    class528_sub9.anInt10288 = i_20_ * -677389603;
 	    if (i_19_ >= 0 && i_20_ >= 0
-		&& i_19_ < client.aClass495_10935.method6029((short) 22155)
-		&& i_20_ < client.aClass495_10935.method5967(1694013264))
+		&& i_19_ < client.gameScene.method6029((short) 22155)
+		&& i_20_ < client.gameScene.method5967(1694013264))
 		Class181_Sub5.method8958(class528_sub9, 1317018922);
 	    Class528_Sub9.aClass688_10287.method8031(class528_sub9, (byte) 81);
 	}

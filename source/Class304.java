@@ -68,7 +68,7 @@ public class Class304
 					* ((double) i_6_ * 3.141592653589793)
 					/ 16384.0));
 	class430.method5176(class430_9_);
-	Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	Class578 class578 = client.gameScene.method5966(1273279609);
 	int i_10_ = 961465569 * class578.anInt7607 << 9;
 	int i_11_ = class578.anInt7608 * -173815201 << 9;
 	if (null != class645_sub1_sub5_sub1)
@@ -76,9 +76,9 @@ public class Class304
 				     new Class422((float) i_3_, (float) i_4_,
 						  (float) i_5_),
 				     class430, bool, i_8_,
-				     (client.aClass495_10935.method6024
+				     (client.gameScene.method6024
 				      (-765386834).anIntArrayArrayArray5087),
-				     client.aClass495_10935
+				     client.gameScene
 					 .method6006((byte) 0),
 				     i_10_, i_11_, -168323650);
 	client.aBool10982 = true;

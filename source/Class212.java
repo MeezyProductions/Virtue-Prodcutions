@@ -109,14 +109,14 @@ public class Class212 implements Interface25
 	    ((Class648) class648).anObjectArray8396
 		[((((Class648) class648).anInt8410 += 1600226731) * -520794877
 		  - 1)]
-		= ((Class596) client.aClass495_10935.method5976
+		= ((Class596) client.gameScene.method5976
 				  ((short) 11822).method63(i_2_, 2137807702))
 		      .method7117(i_3_, class79.aString811, (byte) 90);
 	else
 	    ((Class648) class648).anIntArray8394
 		[((((Class648) class648).anInt8395 += 1239022665) * 717927929
 		  - 1)]
-		= (((Class596) client.aClass495_10935.method5976
+		= (((Class596) client.gameScene.method5976
 				   ((short) 26367).method63(i_2_, 1702661261))
 		       .method7112
 		   (i_3_, 1875093329 * class79.anInt809, 1447807984));

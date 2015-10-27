@@ -83,7 +83,7 @@ public class Class686
 		= Class656.method7845(OutgoingOpcode.aClass403_4475,
 				      client.aClass109_10930.aClass10_1379,
 				      -1980451620);
-	Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	Class578 class578 = client.gameScene.method5966(1273279609);
 	class528_sub34.aClass528_Sub42_Sub2_10481
 	    .method9661(i_3_ + -173815201 * class578.anInt7608, -744544548);
 	class528_sub34.aClass528_Sub42_Sub2_10481

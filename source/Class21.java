@@ -32,7 +32,7 @@ public class Class21
 						     i_0_, 836635498);
 	    Class243.method3387(2140130057);
 	    client.aBool11161 = false;
-	    client.aClass495_10935.method5989(2016078152);
+	    client.gameScene.method5989(2016078152);
 	}
     }
 }

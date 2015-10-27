@@ -852,7 +852,7 @@ public class Class47
 		    = (Class108.myPlayer.method7693()
 		       .aClass422_4868);
 		Class578 class578
-		    = client.aClass495_10935.method5966(1273279609);
+		    = client.gameScene.method5966(1273279609);
 		if (Class518_Sub1.aClass528_Sub21_Sub17_7017.method10589
 		    (Class108.myPlayer.aByte10675,
 		     (((int) class422.aFloat4780 >> 9)

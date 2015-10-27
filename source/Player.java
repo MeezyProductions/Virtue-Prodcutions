@@ -246,7 +246,7 @@ public class Player extends Entity {
 
 	@Override
 	public Class528_Sub19 method169(int i) {
-		Class578 class578 = client.aClass495_10935.method5966(1273279609);
+		Class578 class578 = client.gameScene.method5966(1273279609);
 		return Class49.method891(aByte10675,
 				((int) method7693().aClass422_4868.aFloat4780 + -1650867712 * class578.anInt7607),
 				-(int) method7693().aClass422_4868.aFloat4776,
@@ -278,11 +278,11 @@ public class Player extends Entity {
 			}
 		}
 		facingDirection = -2102619979;
-		if (i < 0 || i >= client.aClass495_10935.method6029((short) 18663) || i_40_ < 0
-				|| i_40_ >= client.aClass495_10935.method5967(2133886177))
+		if (i < 0 || i >= client.gameScene.method6029((short) 18663) || i_40_ < 0
+				|| i_40_ >= client.gameScene.method5967(2133886177))
 			setPosition(i, i_40_, -213276926);
-		else if (sceneXQueue[0] < 0 || (sceneXQueue[0] >= client.aClass495_10935.method6029((short) 6799))
-				|| sceneYQueue[0] < 0 || (sceneYQueue[0] >= client.aClass495_10935.method5967(908971397)))
+		else if (sceneXQueue[0] < 0 || (sceneXQueue[0] >= client.gameScene.method6029((short) 6799))
+				|| sceneYQueue[0] < 0 || (sceneYQueue[0] >= client.gameScene.method5967(908971397)))
 			setPosition(i, i_40_, 769491702);
 		else
 			addStep(i, i_40_, i_41_, -694840032);
@@ -301,7 +301,7 @@ public class Player extends Entity {
 		method7688(class422);
 		class422.method5054();
 		if (Class108.myPlayer == this)
-			client.aClass495_10935.method5975(-860712462).method7492(-148130096);
+			client.gameScene.method5975(-860712462).method7492(-148130096);
 		if (this.aClass612_11800 != null)
 			this.aClass612_11800.method7324();
 	}
@@ -456,7 +456,7 @@ public class Player extends Entity {
 
 	@Override
 	public Class528_Sub19 method176() {
-		Class578 class578 = client.aClass495_10935.method5966(1273279609);
+		Class578 class578 = client.gameScene.method5966(1273279609);
 		return Class49.method891(aByte10675,
 				((int) method7693().aClass422_4868.aFloat4780 + -1650867712 * class578.anInt7607),
 				-(int) method7693().aClass422_4868.aFloat4776,
@@ -636,7 +636,7 @@ public class Player extends Entity {
 
 	@Override
 	public Class528_Sub19 method179() {
-		Class578 class578 = client.aClass495_10935.method5966(1273279609);
+		Class578 class578 = client.gameScene.method5966(1273279609);
 		return Class49.method891(aByte10675,
 				((int) method7693().aClass422_4868.aFloat4780 + -1650867712 * class578.anInt7607),
 				-(int) method7693().aClass422_4868.aFloat4776,

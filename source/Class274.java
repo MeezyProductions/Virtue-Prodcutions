@@ -283,7 +283,7 @@ public class Class274
 		    [717927929 * ((Class648) class648).anInt8395 + 2]);
 	int i_5_ = (((Class648) class648).anIntArray8394
 		    [3 + 717927929 * ((Class648) class648).anInt8395]);
-	Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	Class578 class578 = client.gameScene.method5966(1273279609);
 	Class466.method5641(((i_2_ >> 14 & 0x3fff)
 			     - 961465569 * class578.anInt7607),
 			    (i_2_ & 0x3fff) - -173815201 * class578.anInt7608,

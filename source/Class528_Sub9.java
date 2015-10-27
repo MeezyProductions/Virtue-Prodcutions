@@ -42,9 +42,9 @@ public final class Class528_Sub9 extends Node
 		if (class528_sub9.anInt10276 * -419484275 >= 0
 		    && 1250348405 * class528_sub9.anInt10288 >= 0
 		    && (class528_sub9.anInt10276 * -419484275
-			< client.aClass495_10935.method6029((short) 15190))
+			< client.gameScene.method6029((short) 15190))
 		    && (1250348405 * class528_sub9.anInt10288
-			< client.aClass495_10935.method5967(1732541199)))
+			< client.gameScene.method5967(1732541199)))
 		    Class181_Sub5.method8958(class528_sub9, 954076495);
 	    } else
 		class528_sub9.method6443(-1392310196);

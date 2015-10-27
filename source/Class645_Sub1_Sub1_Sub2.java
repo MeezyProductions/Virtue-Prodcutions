@@ -422,7 +422,7 @@ public class Class645_Sub1_Sub1_Sub2 extends Class645_Sub1_Sub1
 			  .method1951((byte) 0, i_12_, false);
 		if (class596.aBool7768) {
 		    Class491 class491
-			= client.aClass495_10935.method6004(-735391224);
+			= client.gameScene.method6004(-735391224);
 		    ((Class645_Sub1_Sub1_Sub2) this).aClass157_11896.method1917
 			(class491.anInt5514 * -1316786341,
 			 -380000269 * class491.anInt5512,

@@ -100,13 +100,13 @@ public class BitBuffer extends ByteBuffer
     }
     
     static final void method10626(byte i) {
-	byte[][][] is = client.aClass495_10935.method5978((byte) -88);
+	byte[][][] is = client.gameScene.method5978((byte) -88);
 	byte i_11_ = (byte) (-2032978979 * client.anInt10968 - 4 & 0xff);
 	int i_12_ = (-2032978979 * client.anInt10968
-		     % client.aClass495_10935.method6029((short) 667));
+		     % client.gameScene.method6029((short) 667));
 	for (int i_13_ = 0; i_13_ < 4; i_13_++) {
 	    for (int i_14_ = 0;
-		 i_14_ < client.aClass495_10935.method5967(51723941); i_14_++)
+		 i_14_ < client.gameScene.method5967(51723941); i_14_++)
 		is[i_13_][i_12_][i_14_] = i_11_;
 	}
 	if (3 != Class181_Sub5.anInt9778 * 1926870089) {
@@ -120,13 +120,13 @@ public class BitBuffer extends ByteBuffer
 	    Class422 class422
 		= (Class108.myPlayer.method7693()
 		   .aClass422_4868);
-	    Class466 class466 = client.aClass495_10935.method6006((byte) 0);
-	    Class538 class538 = client.aClass495_10935.method5973((byte) 54);
+	    Class466 class466 = client.gameScene.method6006((byte) 0);
+	    Class538 class538 = client.gameScene.method5973((byte) 54);
 	    if (4 == Class390.anInt4111 * -1860881523
 		|| 6 == -1860881523 * Class390.anInt4111
 		|| -1 != Class690_Sub2.anInt10780 * -958954655) {
 		Class578 class578
-		    = client.aClass495_10935.method5966(1273279609);
+		    = client.gameScene.method5966(1273279609);
 		int i_16_;
 		int i_17_;
 		if (6 == -1860881523 * Class390.anInt4111) {
@@ -211,13 +211,13 @@ public class BitBuffer extends ByteBuffer
 				else
 				    i_26_ = i_20_ - i_23_;
 				if (i_25_ == 0 && i_26_ == 0
-				    || i_25_ <= -client.aClass495_10935
+				    || i_25_ <= -client.gameScene
 						     .method6029((short) 19235)
-				    || i_25_ >= client.aClass495_10935
+				    || i_25_ >= client.gameScene
 						    .method6029((short) 5566)
-				    || i_26_ <= -client.aClass495_10935
+				    || i_26_ <= -client.gameScene
 						     .method5967(1668440035)
-				    || i_26_ >= client.aClass495_10935
+				    || i_26_ >= client.gameScene
 						    .method5967(1184435117)) {
 				    if (6 != Class390.anInt4111 * -1860881523)
 					VarDomainType.method5340

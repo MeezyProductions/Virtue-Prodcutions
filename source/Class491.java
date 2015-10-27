@@ -35,7 +35,7 @@ public class Class491
 	       [(((Class648) class648).anInt8395 -= 1239022665) * 717927929])
 	      == 1) ? 1 : 0,
 	     386520408);
-	client.aClass495_10935.method5989(2016078152);
+	client.gameScene.method5989(2016078152);
 	Class243.method3387(2142449207);
 	client.aBool11161 = false;
     }

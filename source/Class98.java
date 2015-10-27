@@ -72,31 +72,31 @@ public class Class98
     }
     
     public static void method1301() {
-	int i = client.aClass495_10935.method6029((short) 12581);
-	int i_0_ = client.aClass495_10935.method5967(2129137366);
+	int i = client.gameScene.method6029((short) 12581);
+	int i_0_ = client.gameScene.method5967(2129137366);
 	Class148_Sub1.aBoolArrayArray8790 = new boolean[i >> 3][i_0_ >> 3];
     }
     
     public static void method1302() {
-	int i = client.aClass495_10935.method6029((short) 10489);
-	int i_1_ = client.aClass495_10935.method5967(-526324676);
+	int i = client.gameScene.method6029((short) 10489);
+	int i_1_ = client.gameScene.method5967(-526324676);
 	Class148_Sub1.aBoolArrayArray8790 = new boolean[i >> 3][i_1_ >> 3];
     }
     
     public static void method1303() {
-	int i = client.aClass495_10935.method6029((short) 8660);
-	int i_2_ = client.aClass495_10935.method5967(1390678683);
+	int i = client.gameScene.method6029((short) 8660);
+	int i_2_ = client.gameScene.method5967(1390678683);
 	Class148_Sub1.aBoolArrayArray8790 = new boolean[i >> 3][i_2_ >> 3];
     }
     
     static void method1304(int i) {
 	anInt1245 = 0;
-	int i_3_ = client.aClass495_10935.method6029((short) 11276);
-	int i_4_ = client.aClass495_10935.method5967(2005487724);
-	Class466 class466 = client.aClass495_10935.method6006((byte) 0);
-	Class538 class538 = client.aClass495_10935.method5973((byte) 28);
+	int i_3_ = client.gameScene.method6029((short) 11276);
+	int i_4_ = client.gameScene.method5967(2005487724);
+	Class466 class466 = client.gameScene.method6006((byte) 0);
+	Class538 class538 = client.gameScene.method5973((byte) 28);
 	Class5_Sub15 class5_sub15
-	    = client.aClass495_10935.method5976((short) 13817);
+	    = client.gameScene.method5976((short) 13817);
 	int i_5_ = i;
 	if (Class108.myPlayer != null) {
 	    int i_6_ = ((Class108.myPlayer
@@ -166,12 +166,12 @@ public class Class98
     
     static void method1306(int i) {
 	anInt1245 = 0;
-	int i_11_ = client.aClass495_10935.method6029((short) 31447);
-	int i_12_ = client.aClass495_10935.method5967(1600625714);
-	Class466 class466 = client.aClass495_10935.method6006((byte) 0);
-	Class538 class538 = client.aClass495_10935.method5973((byte) 19);
+	int i_11_ = client.gameScene.method6029((short) 31447);
+	int i_12_ = client.gameScene.method5967(1600625714);
+	Class466 class466 = client.gameScene.method6006((byte) 0);
+	Class538 class538 = client.gameScene.method5973((byte) 19);
 	Class5_Sub15 class5_sub15
-	    = client.aClass495_10935.method5976((short) 17444);
+	    = client.gameScene.method5976((short) 17444);
 	int i_13_ = i;
 	if (Class108.myPlayer != null) {
 	    int i_14_ = ((Class108.myPlayer

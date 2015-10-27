@@ -59,12 +59,12 @@ public class Class541
 	int i_13_ = Class514.aClass528_Sub38_6967.aClass691_Sub17_10586
 			.method9955(1387893869);
 	if (i_13_ == 0) {
-	    client.aClass495_10935.method5979(null, -1616010987);
+	    client.gameScene.method5979(null, -1616010987);
 	    Class405.method4877(0, 68049678);
 	} else if (i_13_ == 1 || i_13_ == 3) {
 	    Class152.method1825((byte) 0, 452013507);
 	    Class405.method4877(512, -295419691);
-	    if (client.aClass495_10935.method5973((byte) 95) != null)
+	    if (client.gameScene.method5973((byte) 95) != null)
 		Class471.method5814(1064317205);
 	} else {
 	    Class152.method1825((byte) (client.anInt10968 * -2032978979 - 4

@@ -31,9 +31,9 @@ public class Class448
 				 boolean bool, boolean bool_4_, int i_5_) {
 	if (!bool
 	    && (i_0_ < 512 || i_1_ < 512
-		|| i_0_ > (client.aClass495_10935.method6029((short) 10463)
+		|| i_0_ > (client.gameScene.method6029((short) 10463)
 			   - 2) * 512
-		|| i_1_ > ((client.aClass495_10935.method5967(587587205) - 2)
+		|| i_1_ > ((client.gameScene.method5967(587587205) - 2)
 			   * 512))) {
 	    float[] fs = client.aFloatArray10888;
 	    client.aFloatArray10888[1] = -1.0F;

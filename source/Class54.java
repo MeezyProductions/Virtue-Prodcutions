@@ -135,7 +135,7 @@ public class Class54
 	    for (int i_0_ = 0; i_0_ < 8; i_0_++)
 		client.aClass487ArrayArray11004[i][i_0_] = new Class487();
 	}
-	client.aClass495_10935.method5975(-430676104).method7492(2102748851);
+	client.gameScene.method5975(-430676104).method7492(2102748851);
 	client.aBool10982 = true;
 	Class596.aShortArray7842 = Class299.aShortArray3324
 	    = ItemType.aShortArray30 = new short[256];
@@ -318,7 +318,7 @@ public class Class54
 	    for (int i_1_ = 0; i_1_ < 8; i_1_++)
 		client.aClass487ArrayArray11004[i][i_1_] = new Class487();
 	}
-	client.aClass495_10935.method5975(-1873506878).method7492(-405620467);
+	client.gameScene.method5975(-1873506878).method7492(-405620467);
 	client.aBool10982 = true;
 	Class596.aShortArray7842 = Class299.aShortArray3324
 	    = ItemType.aShortArray30 = new short[256];

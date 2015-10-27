@@ -362,7 +362,7 @@ public class Class216 {
 	static void method3066(Class173 class173, int i) {
 		if (0x5630d087 * Class98.anInt1244 == Class108.myPlayer.aByte10675)
 			return;
-		if (client.aClass495_10935.method5973((byte) 23) == null)
+		if (client.gameScene.method5973((byte) 23) == null)
 			return;
 		Class249.method3417(0x77ca740d);
 		if (Class436.method5286(class173, Class108.myPlayer.aByte10675, 0x2f412546))

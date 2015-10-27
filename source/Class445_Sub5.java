@@ -104,7 +104,7 @@ final class Class445_Sub5 extends VarDomainType
 					     (byte) -5);
 		else if (string.equalsIgnoreCase("getcamerapos")) {
 		    Class578 class578
-			= client.aClass495_10935.method5966(1273279609);
+			= client.gameScene.method5966(1273279609);
 		    if (6 == Class390.anInt4111 * -1860881523) {
 			Class422 class422 = Class495.aClass283_Sub1_5578
 						.method3788((short) -14388);

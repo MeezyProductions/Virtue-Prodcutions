@@ -203,7 +203,7 @@ public class Class194
 						  .aClass691_Sub35_10597),
 						 3, 1818354735);
 	Class662.method7878(1119281887);
-	client.aClass495_10935.method5975(-83259320).method7492(284229765);
+	client.gameScene.method5975(-83259320).method7492(284229765);
 	client.aBool10896 = true;
     }
     

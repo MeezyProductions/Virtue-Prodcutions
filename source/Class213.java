@@ -96,7 +96,7 @@ public class Class213 implements IClientEnum
 		    = (((float) i_8_ + f * (f * (float) i_10_ + (float) i_9_))
 		       * f) + (float) i_7_;
 	    }
-	    Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	    Class578 class578 = client.gameScene.method5966(1273279609);
 	    Class626.anInt8136
 		= (((int) fs[0] - -1650867712 * class578.anInt7607)
 		   * 1636412895);

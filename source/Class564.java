@@ -317,9 +317,9 @@ public class Class564 implements Interface65
 			    if (-661992929 * Class229.anInt2362
 				== -1257480855 * class229.anInt2474) {
 				Class587.aClass173_7714.method2235();
-				client.aClass495_10935.method5975
+				client.gameScene.method5975
 				    (-1919776385).method7464
-				    (client.aClass495_10935, 1271477822);
+				    (client.gameScene, 1271477822);
 				Class587.aClass173_7714.method2262
 				    (i_15_, i_16_,
 				     -1117838587 * Class411.anInt4713,
@@ -1111,9 +1111,9 @@ public class Class564 implements Interface65
 					.method2465(client.aClass433_11080);
 				    Class418 class418
 					= Class587.aClass173_7714.method2241();
-				    int i_58_ = client.aClass495_10935
+				    int i_58_ = client.gameScene
 						    .method6020(1737452510);
-				    int i_59_ = client.aClass495_10935
+				    int i_59_ = client.gameScene
 						    .method5972(1387307158);
 				    i_59_ += class229.anInt2430 * 2135116593;
 				    if (class229.aBool2433) {
@@ -1304,7 +1304,7 @@ public class Class564 implements Interface65
 					     i_16_ + (class229.anInt2458
 						      * 1661025435));
 				    if (class229.aBool2444)
-					client.aClass495_10935.method5975
+					client.gameScene.method5975
 					    (-2106179709).method7479
 					    (((float) (1303231609
 						       * class229.anInt2450)
@@ -1321,7 +1321,7 @@ public class Class564 implements Interface65
 					     class229.anInt2422 * 232456167,
 					     -302458544);
 				    else
-					client.aClass495_10935.method5975
+					client.gameScene.method5975
 					    (-603795563).method7486((byte) 2);
 				    class157.method1897(client.aClass433_10879,
 							null, 1);
@@ -1338,7 +1338,7 @@ public class Class564 implements Interface65
 				    Class587.aClass173_7714
 					.method2204(i_5_, i_6_, i_7_, i_8_);
 				    if (class229.aBool2444)
-					client.aClass495_10935.method5975
+					client.gameScene.method5975
 					    (24848848).method7486((byte) 2);
 				    if (class229.aBool2506)
 					Class587.aClass173_7714

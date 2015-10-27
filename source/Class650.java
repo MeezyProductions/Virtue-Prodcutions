@@ -137,7 +137,7 @@ public final class Class650
     
     static void method7740(Class173 class173, int i, int i_13_, byte i_14_) {
 	if (i >= 0 && i_13_ >= 0 && null != Class28.aClass418_287) {
-	    Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	    Class578 class578 = client.gameScene.method5966(1273279609);
 	    Class418 class418 = class173.method2241();
 	    Class95.method1257(class173, (byte) 0);
 	    class418.method5035(Class28.aClass433_289);
@@ -145,7 +145,7 @@ public final class Class650
 	    class418.method5024();
 	    int i_15_ = i - Class28.anInt286 * 1299216485;
 	    int i_16_ = i_13_ - 1249642535 * Class28.anInt284;
-	    if (client.aClass495_10935.method5973((byte) 55) != null) {
+	    if (client.gameScene.method5973((byte) 55) != null) {
 		if (!client.aBool10899
 		    || (Class296.anInt3249 * -856748185 & 0x40) != 0) {
 		    int i_17_ = -1;
@@ -194,7 +194,7 @@ public final class Class650
 			int i_31_
 			    = (Class108.myPlayer
 			       .aByte10675);
-			if (i_31_ < 3 && ((client.aClass495_10935.method6006
+			if (i_31_ < 3 && ((client.gameScene.method6006
 					   ((byte) 0).aByteArrayArrayArray5312
 					   [1][i_29_ >> 9][i_30_ >> 9])
 					  & 0x2) != 0)
@@ -242,7 +242,7 @@ public final class Class650
 			}
 		    }
 		}
-		Class555 class555 = (client.aClass495_10935.method5973
+		Class555 class555 = (client.gameScene.method5973
 				     ((byte) 33).aClass555_7207);
 		int i_32_ = i;
 		int i_33_ = i_13_;
@@ -807,7 +807,7 @@ public final class Class650
 				= (Interface60) class549.aClass645_Sub1_7417;
 			    Class596 class596
 				= ((Class596)
-				   (client.aClass495_10935.method5976
+				   (client.gameScene.method5976
 					((short) 17043).method63
 				    (interface60.method397((short) -13769),
 				     1739992032)));

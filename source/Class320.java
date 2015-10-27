@@ -144,9 +144,9 @@ public class Class320 implements Interface31
 	    Class418 class418 = Class587.aClass173_7714.method2241();
 	    class418.method4984((float) (dimension.width / 2),
 				(float) (dimension.height / 2), 512.0F, 512.0F,
-				(float) client.aClass495_10935
+				(float) client.gameScene
 					    .method6020(1880394154),
-				(float) client.aClass495_10935
+				(float) client.gameScene
 					    .method5972(876236010),
 				(float) dimension.width,
 				(float) dimension.height);

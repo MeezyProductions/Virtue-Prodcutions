@@ -280,7 +280,7 @@ public class Class603 implements Interface67
     
     static Entity method7186(int i, int i_7_, int i_8_,
 					      int i_9_) {
-	Class546 class546 = (client.aClass495_10935.method5973((byte) 62)
+	Class546 class546 = (client.gameScene.method5973((byte) 62)
 			     .aClass546ArrayArrayArray7160[i][i_7_][i_8_]);
 	if (null == class546)
 	    return null;
@@ -330,7 +330,7 @@ public class Class603 implements Interface67
 					     .toString(),
 					 (byte) 21);
 	    else if (i == 22) {
-		Class559 class559 = (client.aClass495_10935.method5973
+		Class559 class559 = (client.gameScene.method5973
 				     ((byte) 91).aClass559_7156);
 		class559.aBool7491 = !class559.aBool7491;
 	    } else if (i == 5)
@@ -390,9 +390,9 @@ public class Class603 implements Interface67
 	    else if (i == 15)
 		Class181_Sub2.method8729((byte) 0);
 	    else if (26 == i) {
-		client.aClass495_10935.aLong5558
+		client.gameScene.aLong5558
 		    = Class249.method3417(2017365772) * -8826400789005528605L;
-		client.aClass495_10935.aBool5574 = true;
+		client.gameScene.aBool5574 = true;
 		Class181_Sub2.method8729((byte) 0);
 	    } else if (23 == i) {
 		Class422 class422
@@ -411,7 +411,7 @@ public class Class603 implements Interface67
 		       .aClass422_4868);
 		Class364_Sub2.method9236
 		    (new StringBuilder().append("").append
-			 (client.aClass495_10935.method5973((byte) 18)
+			 (client.gameScene.method5973((byte) 18)
 			      .aClass137Array7161
 			      [(Class108.myPlayer
 				.aByte10675)]
@@ -447,13 +447,13 @@ public class Class603 implements Interface67
 		Class7.method566(-1313364045);
 	    } else if (i == 10) {
 		client.anInt10897 = 0;
-		client.aClass495_10935.method5989(2016078152);
+		client.gameScene.method5989(2016078152);
 	    } else if (i == 1) {
 		client.anInt10897 = -1221863335;
-		client.aClass495_10935.method5989(2016078152);
+		client.gameScene.method5989(2016078152);
 	    } else if (21 == i) {
 		client.anInt10897 = 1851240626;
-		client.aClass495_10935.method5989(2016078152);
+		client.gameScene.method5989(2016078152);
 	    }
 	} catch (Exception exception) {
 	    Class364_Sub2.method9236

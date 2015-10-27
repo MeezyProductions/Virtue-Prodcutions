@@ -74,12 +74,12 @@ public abstract class Class501
     
     static void method6112(int i, int i_4_) {
 	Class98.anInt1245 = 0;
-	int i_5_ = client.aClass495_10935.method6029((short) 26549);
-	int i_6_ = client.aClass495_10935.method5967(328193085);
-	Class466 class466 = client.aClass495_10935.method6006((byte) 0);
-	Class538 class538 = client.aClass495_10935.method5973((byte) 30);
+	int i_5_ = client.gameScene.method6029((short) 26549);
+	int i_6_ = client.gameScene.method5967(328193085);
+	Class466 class466 = client.gameScene.method6006((byte) 0);
+	Class538 class538 = client.gameScene.method5973((byte) 30);
 	Class5_Sub15 class5_sub15
-	    = client.aClass495_10935.method5976((short) 17060);
+	    = client.gameScene.method5976((short) 17060);
 	int i_7_ = i;
 	if (Class108.myPlayer != null) {
 	    int i_8_ = ((Class108.myPlayer

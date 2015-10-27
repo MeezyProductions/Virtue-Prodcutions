@@ -451,7 +451,7 @@ public abstract class Class537
 				   Class378_Sub2.aClass668_10123, true,
 				   Class516.aClass446_6970,
 				   Class287.aClass446_3161);
-	    client.aClass495_10935.method5981(Class395.aClass5_Sub15_4153,
+	    client.gameScene.method5981(Class395.aClass5_Sub15_4153,
 					      -592052694);
 	    Class590.aClass488_7736.method5894
 		(new Class5_Sub15(client.aClass673_11108,
@@ -608,7 +608,7 @@ public abstract class Class537
 	    Class518.method6326(Class579.aClass446_7612, Class43.aClass446_530,
 				Class160.aClass5_Sub11_1805,
 				Class224.aClass5_Sub18_2330,
-				client.aClass495_10935
+				client.gameScene
 				    .method5976((short) 24568),
 				Class208.aClass5_Sub6_2238,
 				Class316_Sub3.aClass5_Sub16_10053,

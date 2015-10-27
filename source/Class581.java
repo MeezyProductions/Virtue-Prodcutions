@@ -676,15 +676,15 @@ public class Class581
 				 (int) class422.aFloat4776,
 				 (int) class422.aFloat4777);
 	class326_sub2.method9108(class528_sub19, 1555890467);
-	Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	Class578 class578 = client.gameScene.method5966(1273279609);
 	int i_23_ = class578.anInt7607 * 961465569 << 9;
 	int i_24_ = -173815201 * class578.anInt7608 << 9;
 	Class71.aClass283_Sub1_774.method3760(0.02F,
-					      (client.aClass495_10935
+					      (client.gameScene
 						   .method6024
 					       (-765386834)
 					       .anIntArrayArrayArray5087),
-					      client.aClass495_10935
+					      client.gameScene
 						  .method6006((byte) 0),
 					      i_23_, i_24_, -2137352661);
     }

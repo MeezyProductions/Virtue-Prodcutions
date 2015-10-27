@@ -110,7 +110,7 @@ public class Class488 implements Runnable
 	    /* empty */
 	}
 	this.aClass495_5497.method6034(-2091361076);
-	client.aClass495_10935.method6034(-1970996056);
+	client.gameScene.method6034(-1970996056);
     }
     
     public void method5902() {

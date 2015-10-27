@@ -78,7 +78,7 @@ public abstract class Class684
 		    [((Class648) class648).anInt8395 * 717927929 + 2]);
 	int i_9_ = (((Class648) class648).anIntArray8394
 		    [((Class648) class648).anInt8395 * 717927929 + 3]);
-	Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	Class578 class578 = client.gameScene.method5966(1273279609);
 	Class181_Sub15.method8967(((i_6_ >> 14 & 0x3fff)
 				   - class578.anInt7607 * 961465569),
 				  ((i_6_ & 0x3fff)

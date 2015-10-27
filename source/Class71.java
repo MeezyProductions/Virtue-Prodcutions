@@ -139,13 +139,13 @@ public class Class71
 				 (int) class422.aFloat4776,
 				 (int) class422.aFloat4777);
 	class326_sub2.method9108(class528_sub19, 72370593);
-	Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	Class578 class578 = client.gameScene.method5966(1273279609);
 	int i = class578.anInt7607 * 961465569 << 9;
 	int i_10_ = -173815201 * class578.anInt7608 << 9;
 	aClass283_Sub1_774.method3760(0.02F,
-				      (client.aClass495_10935.method6024
+				      (client.gameScene.method6024
 				       (-765386834).anIntArrayArrayArray5087),
-				      client.aClass495_10935
+				      client.gameScene
 					  .method6006((byte) 0),
 				      i, i_10_, -2137352661);
     }
@@ -230,13 +230,13 @@ public class Class71
 				 (int) class422.aFloat4776,
 				 (int) class422.aFloat4777);
 	class326_sub2.method9108(class528_sub19, -689414942);
-	Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	Class578 class578 = client.gameScene.method5966(1273279609);
 	int i = class578.anInt7607 * 961465569 << 9;
 	int i_21_ = -173815201 * class578.anInt7608 << 9;
 	aClass283_Sub1_774.method3760(0.02F,
-				      (client.aClass495_10935.method6024
+				      (client.gameScene.method6024
 				       (-765386834).anIntArrayArrayArray5087),
-				      client.aClass495_10935
+				      client.gameScene
 					  .method6006((byte) 0),
 				      i, i_21_, -2137352661);
     }
@@ -317,13 +317,13 @@ public class Class71
 				 (int) class422.aFloat4776,
 				 (int) class422.aFloat4777);
 	class326_sub2.method9108(class528_sub19, 335588189);
-	Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	Class578 class578 = client.gameScene.method5966(1273279609);
 	int i = class578.anInt7607 * 961465569 << 9;
 	int i_32_ = -173815201 * class578.anInt7608 << 9;
 	aClass283_Sub1_774.method3760(0.02F,
-				      (client.aClass495_10935.method6024
+				      (client.gameScene.method6024
 				       (-765386834).anIntArrayArrayArray5087),
-				      client.aClass495_10935
+				      client.gameScene
 					  .method6006((byte) 0),
 				      i, i_32_, -2137352661);
     }

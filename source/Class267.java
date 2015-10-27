@@ -61,13 +61,13 @@ public class Class267
     static void method3673(Class173 class173, int i, int i_4_, int i_5_,
 			   int i_6_, int i_7_, int i_8_, int i_9_,
 			   byte i_10_) {
-	Class538 class538 = client.aClass495_10935.method5973((byte) 102);
+	Class538 class538 = client.gameScene.method5973((byte) 102);
 	Interface60 interface60
 	    = (Interface60) class538.method6600(i, i_4_, i_5_, (byte) -86);
 	if (interface60 != null) {
 	    Class596 class596
 		= ((Class596)
-		   (client.aClass495_10935.method5976((short) 29770).method63
+		   (client.gameScene.method5976((short) 29770).method63
 		    (interface60.method397((short) -12404), 742844271)));
 	    int i_11_ = interface60.method384(2090723482) & 0x3;
 	    int i_12_ = interface60.method168(-1971212033);
@@ -127,7 +127,7 @@ public class Class267
 	if (interface60 != null) {
 	    Class596 class596
 		= ((Class596)
-		   (client.aClass495_10935.method5976((short) 19843).method63
+		   (client.gameScene.method5976((short) 19843).method63
 		    (interface60.method397((short) 22107), -330015421)));
 	    int i_14_ = interface60.method384(2040109492) & 0x3;
 	    int i_15_ = interface60.method168(-1543671629);
@@ -151,7 +151,7 @@ public class Class267
 	if (null != interface60) {
 	    Class596 class596
 		= ((Class596)
-		   (client.aClass495_10935.method5976((short) 27910).method63
+		   (client.gameScene.method5976((short) 27910).method63
 		    (interface60.method397((short) 17661), -2067081812)));
 	    int i_17_ = interface60.method384(978783891) & 0x3;
 	    if (-1 != class596.anInt7801 * 2063502347)

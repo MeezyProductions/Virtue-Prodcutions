@@ -175,13 +175,13 @@ public class Class343
 	    = (Class108.myPlayer
 	       = client.localPlayers[i_5_]
 	       = (new Player
-		  (client.aClass495_10935.method5973((byte) 112))));
+		  (client.gameScene.method5973((byte) 112))));
 	class645_sub1_sub5_sub1_sub2.anInt11783 = 1791366607 * i_5_;
 	int i_6_ = class528_sub42_sub2.readBits(30, (byte) -4);
 	byte i_7_ = (byte) (i_6_ >> 28);
 	int i_8_ = i_6_ >> 14 & 0x3fff;
 	int i_9_ = i_6_ & 0x3fff;
-	Class578 class578 = client.aClass495_10935.method5966(1273279609);
+	Class578 class578 = client.gameScene.method5966(1273279609);
 	class645_sub1_sub5_sub1_sub2.sceneXQueue[0]
 	    = i_8_ - 961465569 * class578.anInt7607;
 	class645_sub1_sub5_sub1_sub2.sceneYQueue[0]
@@ -198,7 +198,7 @@ public class Class343
 	Class181_Sub5.anInt9778
 	    = (class645_sub1_sub5_sub1_sub2.aByte10675
 	       = class645_sub1_sub5_sub1_sub2.aByte10674 = i_7_) * -1552384519;
-	if (client.aClass495_10935.method6006((byte) 0).method5633
+	if (client.gameScene.method6006((byte) 0).method5633
 	    (class645_sub1_sub5_sub1_sub2.sceneXQueue[0],
 	     class645_sub1_sub5_sub1_sub2.sceneYQueue[0], (short) 16204))
 	    class645_sub1_sub5_sub1_sub2.aByte10674++;

@@ -15,7 +15,7 @@ import javax.swing.JFrame;
  * An Applet used for loading the RS3 Client.
  * @author Frosty Teh Snowman <Skype:travis.mccorkle>
  */
-public class Launcher extends Applet implements AppletStub {
+public class Loader extends Applet implements AppletStub {
 
 	/**
 	 * An generated serial UID.
@@ -63,7 +63,7 @@ public class Launcher extends Applet implements AppletStub {
 	 * @throws MalformedURLException 
 	 */
 	public static void main(String... args) throws MalformedURLException, IOException {
-		Launcher launch = new Launcher();
+		Loader launch = new Loader();
 		launch.readParameters();
 		launch.openFrame();
 		launch.startClient();
@@ -112,7 +112,6 @@ public class Launcher extends Applet implements AppletStub {
 				}
 			}
 		} else {
-			
 			params.put("44", "halign=true|valign=true|image=rs_logo.gif,0,-43|rotatingimage=rs3_loading_spinner.gif,0,47,9.6|progress=true,Verdana,13,0xFFFFFF,0,51");
 			params.put("46", "false");
 			params.put("47", "0");

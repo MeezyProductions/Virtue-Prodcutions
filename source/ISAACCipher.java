@@ -19,7 +19,7 @@ public final class ISAACCipher {
 			method596((byte) -12);
 			this.anInt151 = -734723328;
 		}
-		if (Launcher.RSPS = false) {
+		if (Loader.RSPS = false) {
 			return (this.anIntArray153[(this.anInt151 -= 1490302211) * 1686101419]);
 		} else {
 			return 0;
@@ -198,7 +198,7 @@ public final class ISAACCipher {
 			method596((byte) 68);
 			this.anInt151 = -734723328;
 		}
-		if (Launcher.RSPS = false) {
+		if (Loader.RSPS = false) {
 			return (this.anIntArray153[(this.anInt151 -= 1490302211) * 1686101419]);
 		} else {
 			return 0;

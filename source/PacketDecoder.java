@@ -76,7 +76,7 @@ public class PacketDecoder implements Interface25 {
 		class109.aClass396_1390 = class109.aClass396_1385;
 		class109.aClass396_1385 = class109.aClass396_1380;
 		class109.aClass396_1380 = class109.current;
-		if (Launcher.DUMP_PACKETS == true) {
+		if (Loader.DUMP_PACKETS == true) {
 			System.out.println(
 					"Packet:" + (1548242725 * class109.current.anInt4215) + ", " + (1841403963 * class109.anInt1383));
 		}
@@ -349,8 +349,8 @@ public class PacketDecoder implements Interface25 {
 		if (class109.current == IncomingPacket.VARC_LARGE) {
 			int key = buf.readUnsignedShort((short) 31504);
 			int val = buf.readLEInt((short) 16385);
-			if (Launcher.DUMP_VARCS == true) {
-				Launcher.sendVarc(key, val);
+			if (Loader.DUMP_VARCS == true) {
+				Loader.sendVarc(key, val);
 			}
 			Class52.method918(-978195206);
 			Class588.setVarc(key, val, (short) 9973);
@@ -1587,8 +1587,8 @@ public class PacketDecoder implements Interface25 {
 		if (class109.current == IncomingPacket.SEND_VARBIT_LARGE) {
 			int val = buf.readInt(-759819723);
 			int key = buf.readShortA((byte) -52);
-			if (Launcher.DUMP_VARPS == true) {
-				Launcher.sendVarps(key, val);
+			if (Loader.DUMP_VARPS == true) {
+				Loader.sendVarps(key, val);
 			}
 			Class570.playerVarsProvider.aClass586_1209.method7003(
 					(VarDefinition) Class5_Sub7.aClass5_Sub5_10838.method63(key, 312891105), val, -1500816832);
@@ -2480,8 +2480,8 @@ public class PacketDecoder implements Interface25 {
 		if (IncomingPacket.VARC_SMALL == class109.current) {
 			int key = buf.readUnsignedShort(-1784992145);
 			byte val = buf.readSignedS(-1957985307);
-			if (Launcher.DUMP_VARCS == true) {
-				Launcher.sendVarc(key, val);
+			if (Loader.DUMP_VARCS == true) {
+				Loader.sendVarc(key, val);
 			}
 			Class52.method918(-1247538985);
 			Class588.setVarc(key, val, (short) 20251);
